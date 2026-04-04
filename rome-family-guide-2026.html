@@ -1,0 +1,1943 @@
+<!DOCTYPE html>
+<html lang="ka">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rome Family Guide | 22-26 აპრილი 2026</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --bg: #f4ede2;
+        --paper: rgba(255, 251, 245, 0.88);
+        --paper-strong: #fff8f0;
+        --ink: #1f1d19;
+        --muted: #5e564d;
+        --line: rgba(43, 36, 28, 0.12);
+        --accent: #b45535;
+        --accent-deep: #8f3b21;
+        --olive: #6a7152;
+        --gold: #d7a54b;
+        --rose: #e8c9bb;
+        --shadow: 0 20px 60px rgba(62, 41, 23, 0.1);
+        --radius: 24px;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Manrope", sans-serif;
+        color: var(--ink);
+        background:
+          radial-gradient(circle at top left, rgba(212, 165, 75, 0.18), transparent 28%),
+          radial-gradient(circle at top right, rgba(180, 85, 53, 0.16), transparent 26%),
+          linear-gradient(180deg, #f7efe5 0%, #efe3d2 52%, #f6efe6 100%);
+        min-height: 100vh;
+      }
+
+      body::before {
+        content: "";
+        position: fixed;
+        inset: 0;
+        pointer-events: none;
+        background-image:
+          linear-gradient(rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.08)),
+          radial-gradient(circle at 1px 1px, rgba(45, 36, 30, 0.06) 1px, transparent 0);
+        background-size: auto, 24px 24px;
+        opacity: 0.45;
+      }
+
+      a {
+        color: inherit;
+      }
+
+      .shell {
+        width: min(1180px, calc(100% - 32px));
+        margin: 24px auto 72px;
+        position: relative;
+        z-index: 1;
+      }
+
+      .hero {
+        position: relative;
+        overflow: hidden;
+        border-radius: 36px;
+        padding: 28px;
+        color: #fff7f0;
+        background:
+          linear-gradient(140deg, rgba(37, 29, 24, 0.9), rgba(100, 47, 28, 0.88)),
+          linear-gradient(110deg, rgba(183, 92, 58, 0.85), rgba(78, 44, 29, 0.8));
+        box-shadow: var(--shadow);
+      }
+
+      .hero::after {
+        content: "";
+        position: absolute;
+        right: -90px;
+        top: -80px;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        background: radial-gradient(circle, rgba(255, 209, 131, 0.48), transparent 68%);
+      }
+
+      .hero-grid {
+        display: grid;
+        grid-template-columns: 1.55fr 1fr;
+        gap: 22px;
+        position: relative;
+        z-index: 1;
+      }
+
+      .eyebrow {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        padding: 9px 14px;
+        border: 1px solid rgba(255, 244, 231, 0.18);
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.08);
+        font-size: 13px;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+
+      h1,
+      h2,
+      h3 {
+        font-family: "Fraunces", serif;
+        margin: 0;
+        line-height: 1.02;
+      }
+
+      h1 {
+        margin-top: 18px;
+        font-size: clamp(2.4rem, 5vw, 4.4rem);
+        max-width: 10ch;
+      }
+
+      .hero p {
+        margin: 16px 0 0;
+        max-width: 64ch;
+        color: rgba(255, 246, 238, 0.88);
+        line-height: 1.7;
+      }
+
+      .hero-stats {
+        display: grid;
+        gap: 14px;
+      }
+
+      .stat-card {
+        padding: 18px;
+        border-radius: 20px;
+        background: rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.14);
+        backdrop-filter: blur(12px);
+      }
+
+      .stat-card strong {
+        display: block;
+        font-size: 0.85rem;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: rgba(255, 242, 230, 0.78);
+      }
+
+      .stat-card span {
+        display: block;
+        margin-top: 10px;
+        font-size: 1.1rem;
+        line-height: 1.45;
+      }
+
+      .floating-nav {
+        position: sticky;
+        top: 16px;
+        z-index: 5;
+        margin: 20px 0 22px;
+        padding: 14px 16px;
+        border-radius: 22px;
+        background: rgba(255, 248, 240, 0.88);
+        border: 1px solid rgba(43, 36, 28, 0.08);
+        box-shadow: 0 14px 34px rgba(52, 37, 24, 0.08);
+        backdrop-filter: blur(14px);
+      }
+
+      .nav-top {
+        display: flex;
+        justify-content: space-between;
+        gap: 14px;
+        align-items: center;
+        margin-bottom: 12px;
+      }
+
+      .progress-wrap {
+        flex: 1;
+      }
+
+      .progress-meta {
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;
+        font-size: 0.92rem;
+        color: var(--muted);
+        margin-bottom: 8px;
+      }
+
+      .progress-track {
+        height: 10px;
+        border-radius: 999px;
+        background: rgba(43, 36, 28, 0.08);
+        overflow: hidden;
+      }
+
+      .progress-bar {
+        width: 0;
+        height: 100%;
+        border-radius: 999px;
+        background: linear-gradient(90deg, var(--gold), var(--accent));
+        transition: width 0.25s ease;
+      }
+
+      .chip-row,
+      .tag-row,
+      .link-row,
+      .action-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      .chip,
+      .tag,
+      .link-pill,
+      .ghost-button,
+      .solid-button {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        text-decoration: none;
+        border-radius: 999px;
+        font-weight: 700;
+      }
+
+      .chip {
+        padding: 10px 14px;
+        font-size: 0.92rem;
+        background: rgba(106, 113, 82, 0.1);
+        color: var(--ink);
+      }
+
+      .tag {
+        padding: 7px 11px;
+        font-size: 0.78rem;
+        letter-spacing: 0.02em;
+      }
+
+      .tag.primary {
+        background: rgba(180, 85, 53, 0.12);
+        color: var(--accent-deep);
+      }
+
+      .tag.olive {
+        background: rgba(106, 113, 82, 0.12);
+        color: #4f5839;
+      }
+
+      .tag.gold {
+        background: rgba(215, 165, 75, 0.14);
+        color: #94631a;
+      }
+
+      .tag.rose {
+        background: rgba(232, 201, 187, 0.5);
+        color: #7a4434;
+      }
+
+      .solid-button,
+      .ghost-button {
+        padding: 11px 15px;
+        font-size: 0.92rem;
+      }
+
+      .solid-button {
+        background: var(--accent);
+        color: #fff7f2;
+      }
+
+      .ghost-button {
+        border: 1px solid rgba(43, 36, 28, 0.12);
+        color: var(--ink);
+        background: rgba(255, 255, 255, 0.65);
+      }
+
+      .grid {
+        display: grid;
+        gap: 22px;
+      }
+
+      .section {
+        padding: 26px;
+        border-radius: 28px;
+        background: var(--paper);
+        border: 1px solid rgba(43, 36, 28, 0.09);
+        box-shadow: var(--shadow);
+        backdrop-filter: blur(10px);
+      }
+
+      .section-header {
+        display: flex;
+        justify-content: space-between;
+        gap: 18px;
+        align-items: end;
+        margin-bottom: 20px;
+      }
+
+      .section-header p {
+        margin: 10px 0 0;
+        color: var(--muted);
+        line-height: 1.65;
+        max-width: 60ch;
+      }
+
+      .summary-grid,
+      .cards-grid,
+      .food-grid,
+      .tools-grid {
+        display: grid;
+        gap: 18px;
+      }
+
+      .summary-grid {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+      }
+
+      .cards-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .food-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .tools-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .mini-card,
+      .info-card,
+      .food-card,
+      .tool-card,
+      .decision-card {
+        border-radius: 22px;
+        background: var(--paper-strong);
+        border: 1px solid var(--line);
+        padding: 18px;
+      }
+
+      .mini-card strong,
+      .info-card strong,
+      .food-card strong,
+      .tool-card strong {
+        display: block;
+        font-size: 1rem;
+      }
+
+      .mini-card p,
+      .info-card p,
+      .food-card p,
+      .tool-card p,
+      .decision-card p {
+        margin: 10px 0 0;
+        color: var(--muted);
+        line-height: 1.62;
+      }
+
+      .itinerary {
+        display: grid;
+        gap: 20px;
+      }
+
+      .day {
+        border-radius: 28px;
+        background: linear-gradient(180deg, rgba(255, 249, 243, 0.98), rgba(252, 245, 236, 0.98));
+        border: 1px solid var(--line);
+        overflow: hidden;
+      }
+
+      .day-head {
+        display: grid;
+        grid-template-columns: 220px 1fr;
+        gap: 18px;
+        padding: 22px;
+        background: linear-gradient(135deg, rgba(180, 85, 53, 0.12), rgba(215, 165, 75, 0.08));
+        border-bottom: 1px solid var(--line);
+      }
+
+      .day-kicker {
+        display: block;
+        font-size: 0.85rem;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--accent-deep);
+        margin-bottom: 10px;
+        font-weight: 800;
+      }
+
+      .day-note {
+        color: var(--muted);
+        line-height: 1.65;
+        margin-top: 10px;
+      }
+
+      .timeline {
+        display: grid;
+        gap: 16px;
+        padding: 22px;
+      }
+
+      .stop {
+        display: grid;
+        grid-template-columns: 120px 1fr;
+        gap: 16px;
+        padding: 18px;
+        border-radius: 22px;
+        background: rgba(255, 255, 255, 0.74);
+        border: 1px solid rgba(43, 36, 28, 0.08);
+      }
+
+      .time {
+        font-size: 0.95rem;
+        font-weight: 800;
+        color: var(--accent-deep);
+      }
+
+      .stop h3 {
+        font-size: 1.4rem;
+      }
+
+      .stop-top {
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        align-items: start;
+      }
+
+      .stop-body p {
+        margin: 10px 0 0;
+        color: var(--muted);
+        line-height: 1.68;
+      }
+
+      .checkline {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        font-weight: 700;
+        font-size: 0.92rem;
+        padding: 10px 12px;
+        border-radius: 14px;
+        background: rgba(106, 113, 82, 0.08);
+      }
+
+      .checkline input {
+        width: 18px;
+        height: 18px;
+        accent-color: var(--accent);
+        margin: 0;
+      }
+
+      details {
+        border-radius: 18px;
+        border: 1px dashed rgba(43, 36, 28, 0.12);
+        padding: 14px 16px;
+        background: rgba(255, 255, 255, 0.58);
+      }
+
+      summary {
+        cursor: pointer;
+        font-weight: 800;
+        color: var(--ink);
+      }
+
+      details p {
+        margin: 12px 0 0;
+      }
+
+      .food-card ul,
+      .decision-card ul,
+      .tool-card ul,
+      .notes-list {
+        padding-left: 18px;
+        margin: 12px 0 0;
+        color: var(--muted);
+        line-height: 1.62;
+      }
+
+      .notes-list li,
+      .food-card li,
+      .decision-card li,
+      .tool-card li {
+        margin: 8px 0;
+      }
+
+      .callout {
+        padding: 18px;
+        border-radius: 20px;
+        border: 1px solid rgba(180, 85, 53, 0.16);
+        background: linear-gradient(135deg, rgba(180, 85, 53, 0.09), rgba(215, 165, 75, 0.08));
+      }
+
+      .sources {
+        display: grid;
+        gap: 12px;
+      }
+
+      .source-item {
+        padding: 14px 16px;
+        border-radius: 18px;
+        border: 1px solid var(--line);
+        background: rgba(255, 255, 255, 0.7);
+      }
+
+      .source-item strong {
+        display: block;
+      }
+
+      .source-item p {
+        margin: 8px 0 0;
+        color: var(--muted);
+        line-height: 1.55;
+      }
+
+      .footer-note {
+        margin-top: 18px;
+        color: var(--muted);
+        line-height: 1.65;
+        font-size: 0.94rem;
+      }
+
+      @media (max-width: 1040px) {
+        .hero-grid,
+        .summary-grid,
+        .cards-grid,
+        .food-grid,
+        .tools-grid,
+        .day-head {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      @media (max-width: 760px) {
+        .shell {
+          width: min(100% - 18px, 100%);
+          margin-top: 10px;
+        }
+
+        .hero,
+        .section,
+        .day-head,
+        .timeline {
+          padding: 18px;
+        }
+
+        .nav-top,
+        .section-header,
+        .stop,
+        .stop-top {
+          grid-template-columns: 1fr;
+          display: grid;
+        }
+
+        .stop {
+          gap: 10px;
+        }
+
+        .floating-nav {
+          top: 10px;
+          padding: 12px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="shell">
+      <header class="hero" id="top">
+        <div class="hero-grid">
+          <div>
+            <span class="eyebrow">Rome / Family Base / Monti</span>
+            <h1>რომი, ისე რომ დრო და ბიუჯეტი ტყუილად არ დაიწვას</h1>
+            <p>
+              22-26 აპრილი 2026. 2 დიდი + 2 ბავშვი (11-12). ეს არის რეალური სამოქმედო მეგზური:
+              დალაგებული მანძილით, crowds-ის ლოგიკით, holiday strategy-ით, ოფიციალური ticket links-ით,
+              Google Maps ლოკაციებით და კვების არჩევანით, სადაც პრიორიტეტია ბევრი კარგი review და ჯერ დაბალი ბიუჯეტი.
+            </p>
+            <div class="tag-row" style="margin-top: 18px">
+              <span class="tag gold">სახლი: Monti</span>
+              <span class="tag primary">Pantheon: 22 აპრილი / 17:00</span>
+              <span class="tag primary">St. Peter's: 24 აპრილი / 10:00</span>
+              <span class="tag olive">25 აპრილი = Festa della Liberazione</span>
+            </div>
+          </div>
+          <div class="hero-stats">
+            <div class="stat-card">
+              <strong>Arrival</strong>
+              <span>
+                22 აპრილი, 08:00, FCO. საუკეთესო პრაქტიკული არჩევანი 4 კაცისთვის:
+                ოფიციალური taxi, fixed fare €55 ქალაქის ცენტრამდე Aurelian Walls-ის შიგნით.
+              </span>
+            </div>
+            <div class="stat-card">
+              <strong>Budget Logic</strong>
+              <span>
+                ძირითადი გეგმა აგებულია ისე, რომ 25 აპრილის უფასო დღე გამოიყენოთ Colosseum/Forum/Palatine-ზე.
+                ამის ფასია უფრო ადრე რიგში დგომა.
+              </span>
+            </div>
+            <div class="stat-card">
+              <strong>Critical Reminder</strong>
+              <span>
+                St. Peter's ბილეთიც კი security-ს არ აუქმებს. ოფიციალური FAQ საშუალო რიგს დაახლოებით
+                1.5 საათს უთითებს, ამიტომ ვატიკანში ადრე უნდა მიხვიდეთ.
+              </span>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <nav class="floating-nav" aria-label="Trip navigation">
+        <div class="nav-top">
+          <div class="progress-wrap">
+            <div class="progress-meta">
+              <span>ნახვის პროგრესი</span>
+              <strong id="progress-text">0 / 0 დასრულებული</strong>
+            </div>
+            <div class="progress-track"><div class="progress-bar" id="progress-bar"></div></div>
+          </div>
+          <a class="solid-button" href="#tickets">ოფიციალური ბილეთები</a>
+        </div>
+        <div class="chip-row">
+          <a class="chip" href="#day-22">22 აპრილი</a>
+          <a class="chip" href="#day-23">23 აპრილი</a>
+          <a class="chip" href="#day-24">24 აპრილი</a>
+          <a class="chip" href="#day-25">25 აპრილი</a>
+          <a class="chip" href="#departure">26 აპრილი</a>
+          <a class="chip" href="#food">სად ვჭამოთ</a>
+          <a class="chip" href="#tools">აპები და პრაქტიკული</a>
+          <a class="chip" href="#sources">წყაროები</a>
+        </div>
+      </nav>
+
+      <main class="grid">
+        <section class="section">
+          <div class="section-header">
+            <div>
+              <span class="day-kicker">Fast Read</span>
+              <h2>რაც ამ გეგმაში ყველაზე მნიშვნელოვანია</h2>
+              <p>
+                მთავარი trade-off-ები უკვე გადაწყვეტილია: arrival day არ არის გადატენილი, Vatican day არ არის
+                გადაკიდებული ზედმეტი მუზეუმებით, და 25 აპრილის holiday mode მაქსიმალურად მუშაობს ბიუჯეტზე.
+              </p>
+            </div>
+          </div>
+          <div class="summary-grid">
+            <article class="mini-card">
+              <strong>სახლიდან ყველაზე კარგი ლოგიკა</strong>
+              <p>
+                Monti იდეალური ბაზაა: Colosseum/Forum მხარე ფეხით მარტივია, Trevi-Pantheon-Navona ცენტრი ერთი დიდი
+                რგოლით იკრიბება, Vatican-ზე კი 1 დიდი გასვლა ჯობია, არა რამდენიმეჯერ დაბრუნება.
+              </p>
+            </article>
+            <article class="mini-card">
+              <strong>25 აპრილის მთავარი თამაში</strong>
+              <p>
+                Colosseum free არის, მაგრამ ჩვეულებრივზე უფრო მკაცრი crowd discipline გჭირდებათ.
+                ამ გეგმაში ამისთვის დილის პირველი საათებია დათმობილი.
+              </p>
+            </article>
+            <article class="mini-card">
+              <strong>Trevi-ის ახალი წესი</strong>
+              <p>
+                2026-ში ახლო basin access ფასიანია. საუკეთესო ბიუჯეტური ხრიკია Trevi ადრე დილით ან 22:00-ის შემდეგ,
+                როცა crowd-იც ნაკლებია და ticket-იც არ გჭირდება.
+              </p>
+            </article>
+            <article class="mini-card">
+              <strong>კვების პრინციპი</strong>
+              <p>
+                ტურისტულ ობიექტზე პირდაპირ მიბმულ მაგიდებს ვაცდებით. აქ ჩასმულია review-heavy spots,
+                სადაც ჯერ `€`, მერე `€€` პრიორიტეტია.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-header">
+            <div>
+              <span class="day-kicker">Decision Points</span>
+              <h2>ორი არჩევანი, რომელიც მოგზაურობას ან ამარტივებს ან აძვირებს</h2>
+            </div>
+          </div>
+          <div class="cards-grid">
+            <article class="decision-card">
+              <div class="tag-row">
+                <span class="tag olive">რეკომენდებული თუ ბიუჯეტი პრიორიტეტია</span>
+              </div>
+              <p>
+                <strong>Colosseum/Forum/Palatine დატოვეთ 25 აპრილისთვის.</strong> ოფიციალურად free day არის.
+                მინუსი: ძალიან ადრე უნდა მიხვიდეთ და free-day route ხშირად არ მოიცავს arena/underground/SUPER areas-ს.
+              </p>
+              <ul>
+                <li>რიგში დადგომა: დაახლოებით 07:15-07:30.</li>
+                <li>სცენარი საუკეთესოა თუ მზად ხართ მშვიდად, დისციპლინირებულად დაიწყოთ დილა.</li>
+                <li>ფულის ეკონომია 4 კაცზე უკვე საგრძნობია.</li>
+              </ul>
+            </article>
+            <article class="decision-card">
+              <div class="tag-row">
+                <span class="tag rose">უფრო კომფორტული, მაგრამ არა budget-first</span>
+              </div>
+              <p>
+                <strong>Paid backup:</strong> თუ არ გინდათ free-day crowd gamble, 23 აპრილს იყიდეთ ოფიციალური
+                timed entry Colosseum-ისთვის. ეს მოგცემთ უფრო მშვიდ გამოცდილებას და 25 აპრილს მთლიანად free neighborhoods-ს დაუთმობთ.
+              </p>
+              <ul>
+                <li>ოფიციალური ფასიანი adult ticket ტიპებიდან სტანდარტი/arena route დღესვე უნდა გადაამოწმოთ.</li>
+                <li>18 წლამდე ბავშვები უფასო არიან, მაგრამ booking მაინც სჭირდებათ.</li>
+                <li>ამ HTML-ში მთავარი itinerary მაინც budget-first ვერსიაა.</li>
+              </ul>
+            </article>
+            <article class="decision-card">
+              <div class="tag-row">
+                <span class="tag gold">კულტურის premium add-on</span>
+              </div>
+              <p>
+                <strong>Vatican Museums + Sistine Chapel</strong> აუცილებლად მნიშვნელოვანი attraction-ია,
+                მაგრამ 24 აპრილს Basilica-სთან ერთად ბავშვებისთვის შეიძლება მძიმე combo გამოვიდეს.
+                ამიტომ აქ ის optional branch-ადაა ჩასმული.
+              </p>
+              <ul>
+                <li>თუ slot გაქვთ, 24 აპრილს 14:30-15:00 იდეალური ფანჯარაა.</li>
+                <li>თუ ticket ვერ იპოვეთ, Basilica + Square + Castel Sant'Angelo საკმარისად ძლიერი დღეა.</li>
+                <li>მუზეუმი არ ჩაამატოთ მხოლოდ იმიტომ, რომ “უნდა”. ენერგიასაც ფასი აქვს.</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="itinerary">
+          <div class="section-header">
+            <div>
+              <span class="day-kicker">Itinerary</span>
+              <h2>დღეებად დალაგებული გეგმა</h2>
+              <p>
+                ქვედა checkboxes ინახება თქვენს ბრაუზერში. რაც მონიშნავთ, დაგხვდებათ შემდეგ გახსნაზეც, თუ იმავე browser/device-დან გახსნით.
+              </p>
+            </div>
+          </div>
+
+          <div class="itinerary">
+            <section class="day" id="day-22">
+              <div class="day-head">
+                <div>
+                  <span class="day-kicker">ოთხშაბათი</span>
+                  <h2>22 აპრილი</h2>
+                  <p class="day-note">Arrival + Monti reset + Pantheon booked slot</p>
+                </div>
+                <div>
+                  <div class="tag-row">
+                    <span class="tag primary">ენერგიის ეკონომია</span>
+                    <span class="tag olive">პირველი დღე არ გადატვირთო</span>
+                    <span class="tag gold">ცენტრი საღამოსთვის</span>
+                  </div>
+                  <p class="day-note">
+                    ფრენის დღეს მიზანია ორი რამ: ფეხზე დადგომა და პირველი საღამოს ქალაქის გემო. ამიტომ დილა/შუადღე რჩება სახლთან ახლოს,
+                    ხოლო Pantheon-ის ბილეთი უკვე ზუსტად შუა-ცენტრში გიბმავთ საღამოს.
+                  </p>
+                </div>
+              </div>
+              <div class="timeline">
+                <article class="stop">
+                  <div class="time">08:00-10:45</div>
+                  <div class="stop-body">
+                    <div class="stop-top">
+                      <div>
+                        <h3>FCO → Monti</h3>
+                        <div class="tag-row">
+                          <span class="tag gold">რეკომენდაცია: taxi</span>
+                          <span class="tag olive">€55 fixed fare</span>
+                        </div>
+                      </div>
+                      <label class="checkline">
+                        <input type="checkbox" data-task-id="arrive-fco" />
+                        ჩასვლა შესრულდა
+                      </label>
+                    </div>
+                    <p>
+                      4 კაცისთვის და საბარგულით taxi ყველაზე მარტივი და პრაქტიკულია. ADR-ის ოფიციალური ინფორმაციით,
+                      Fiumicino ↔ Rome city center (Aurelian Walls) fixed fare არის €55. თქვენი მისამართი
+                      Monti-შია, ამიტომ ეს rule გეხებათ.
+                    </p>
+                    <div class="link-row" style="margin-top: 12px">
+                      <a class="link-pill ghost-button" href="https://www.google.com/maps/search/?api=1&query=Via+di+Sant%27Agata+de%27+Goti+29,+00184+Rome" target="_blank" rel="noopener">სახლი Google Maps</a>
+                      <a class="link-pill ghost-button" href="https://www.adr.it/web/aeroporti-di-roma-en/pax-fco-taxi" target="_blank" rel="noopener">ADR taxi info</a>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="stop">
+                  <div class="time">11:15-12:00</div>
+                  <div class="stop-body">
+                    <div class="stop-top">
+                      <div>
+                        <h3>Santa Maria Maggiore</h3>
+                        <div class="tag-row">
+                          <span class="tag olive">უფასო</span>
+                          <span class="tag primary">სახლთან ახლოს</span>
+                        </div>
+                      </div>
+                      <label class="checkline">
+                        <input type="checkbox" data-task-id="santa-maria-maggiore" />
+                        ვნახეთ
+                      </label>
+                    </div>
+                    <p>
+                      ძალიან კარგი პირველი stop-ია jetlag-ის დღისთვის: დიდი, შთამბეჭდავი, მაგრამ logistics-ით მარტივი.
+                      აქ უკვე იღებთ “Rome effect”-ს ისე, რომ ქალაქის შუაგულ crowd blender-ში ჯერ არ შედიხართ.
+                    </p>
+                    <div class="link-row" style="margin-top: 12px">
+                      <a class="ghost-button" href="https://www.google.com/maps/search/?api=1&query=Basilica+Papale+di+Santa+Maria+Maggiore,+Piazza+di+Santa+Maria+Maggiore,+Rome" target="_blank" rel="noopener">Google Maps</a>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="stop">
+                  <div class="time">12:10-12:50</div>
+                  <div class="stop-body">
+                    <div class="stop-top">
+                      <div>
+                        <h3>San Pietro in Vincoli + Michelangelo's Moses</h3>
+                        <div class="tag-row">
+                          <span class="tag olive">უფასო</span>
+                          <span class="tag gold">ძალიან მაღალი ხარისხის mini-stop</span>
+                        </div>
+                      </div>
+                      <label class="checkline">
+                        <input type="checkbox" data-task-id="vincoli-moses" />
+                        ვნახეთ
+                      </label>
+                    </div>
+                    <p>
+                      Monti-დან ლოგიკურად დგას და ბევრ ოჯახს სწორედ ასეთი ძლიერი, მაგრამ მოკლე stop-ები უკეთ ახსოვს,
+                      ვიდრე პირველივე დღეს 6-საათიანი marathon. აქედან უკვე lunch-ს მშვიდად უბამთ.
+                    </p>
+                    <div class="link-row" style="margin-top: 12px">
+                      <a class="ghost-button" href="https://www.google.com/maps/search/?api=1&query=Basilica+di+San+Pietro+in+Vincoli,+Piazza+di+San+Pietro+in+Vincoli,+Rome" target="_blank" rel="noopener">Google Maps</a>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="stop">
+                  <div class="time">13:00-14:00</div>
+                  <div class="stop-body">
+                    <div class="stop-top">
+                      <div>
+                        <h3>Lunch in Monti</h3>
+                        <div class="tag-row">
+                          <span class="tag primary">Trieste Pizza / Fuorinorma / Mizio's</span>
+                          <span class="tag olive">€ to €€</span>
+                        </div>
+                      </div>
+                      <label class="checkline">
+                        <input type="checkbox" data-task-id="monti-lunch-day1" />
+                        შევჭამეთ
+                      </label>
+                    </div>
+                    <p>
+                      პირველ დღეს Monti-ში დარჩენა სწორი ნაბიჯია. ყველაზე ნაკლებად გხარჯავთ დროს და ენერგიას.
+                      კონკრეტული არჩევანი ქვევით “სად ვჭამოთ” სექციაშია ratings-ით და maps-ით.
+                    </p>
+                  </div>
+                </article>
+
+                <article class="stop">
+                  <div class="time">14:15-16:00</div>
+                  <div class="stop-body">
+                    <div class="stop-top">
+                      <div>
+                        <h3>Apartment reset</h3>
+                        <div class="tag-row">
+                          <span class="tag rose">ძალიან რეკომენდებული</span>
+                        </div>
+                      </div>
+                      <label class="checkline">
+                        <input type="checkbox" data-task-id="rest-day1" />
+                        დავისვენეთ
+                      </label>
+                    </div>
+                    <p>
+                      ეს pause არ ამცირებს დღეს, პირიქით. ბავშვებთან და დილის ფრენით ჩამოსვლაზე საღამოს ხარისხს მნიშვნელოვნად აუმჯობესებს.
+                      სწორედ ამის გამო გაქვთ ენერგია Pantheon + Navona-ისთვის.
+                    </p>
+                  </div>
+                </article>
+
+                <article class="stop">
+                  <div class="time">16:20-17:00</div>
+                  <div class="stop-body">
+                    <div class="stop-top">
+                      <div>
+                        <h3>Pantheon ticket pickup</h3>
+                        <div class="tag-row">
+                          <span class="tag primary">ბილეთი უკვე გაქვთ</span>
+                          <span class="tag gold">meeting point მნიშვნელოვანია</span>
+                        </div>
+                      </div>
+                      <label class="checkline">
+                        <input type="checkbox" data-task-id="pantheon-pickup" />
+                        ავიღეთ
+                      </label>
+                    </div>
+                    <p>
+                      ოფიციალური Pantheon booking flow ticket pickup-ს აკავშირებს
+                      <strong>OhMyGuide – Roma Museum Store, Via dei Bergamaschi 49</strong>-თან, რაც თავად Pantheon-იდან 5 წუთის სავალია.
+                      ნუ მიხვალთ პირდაპირ მხოლოდ Piazza della Rotonda-ზე, თუ თქვენს booking-ში pickup წერია.
+                    </p>
+                    <div class="link-row" style="margin-top: 12px">
+                      <a class="ghost-button" href="https://www.google.com/maps/search/?api=1&query=Via+dei+Bergamaschi+49,+Rome" target="_blank" rel="noopener">Pickup point Maps</a>
+                      <a class="ghost-button" href="https://www.pantheonroma.com/en/openings-info/" target="_blank" rel="noopener">Pantheon official info</a>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="stop">
+                  <div class="time">17:00-17:50</div>
+                  <div class="stop-body">
+                    <div class="stop-top">
+                      <div>
+                        <h3>Pantheon</h3>
+                        <div class="tag-row">
+                          <span class="tag primary">booked slot</span>
+                          <span class="tag olive">გვიანი შუადღე კარგი დროა</span>
+                        </div>
+                      </div>
+                      <label class="checkline">
+                        <input type="checkbox" data-task-id="pantheon-visit" />
+                        ვნახეთ
+                      </label>
+                    </div>
+                    <p>
+                      თქვენი 17:00 slot სწორია: არა დილის rush, არა closing stress. ოფიციალური საათებია 09:00-19:00,
+                      ბოლო შესვლა 18:45-მდე. შემდეგ მშვიდად მიჰყვებით Navona-ს.
+                    </p>
+                    <div class="link-row" style="margin-top: 12px">
+                      <a class="ghost-button" href="https://www.google.com/maps/search/?api=1&query=Pantheon,+Piazza+della+Rotonda,+Rome" target="_blank" rel="noopener">Google Maps</a>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="stop">
+                  <div class="time">18:00-20:00</div>
+                  <div class="stop-body">
+                    <div class="stop-top">
+                      <div>
+                        <h3>Piazza Navona + slow evening walk</h3>
+                        <div class="tag-row">
+                          <span class="tag olive">უფასო</span>
+                          <span class="tag gold">საღამოს ატმოსფერო</span>
+                        </div>
+                      </div>
+                      <label class="checkline">
+                        <input type="checkbox" data-task-id="navona-evening" />
+                        გავიარეთ
+                      </label>
+                    </div>
+                    <p>
+                      Pantheon-იდან Navona ბუნებრივი გაგრძელებაა. ამ საღამოს არ შევდივართ Trevi crowd-ში;
+                      ამას ხვალ ადრე დილას ბევრად უკეთესად ნახავთ.
+                    </p>
+                    <div class="link-row" style="margin-top: 12px">
+                      <a class="ghost-button" href="https://www.google.com/maps/search/?api=1&query=Piazza+Navona,+Rome" target="_blank" rel="noopener">Google Maps</a>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </section>
+
+            <section class="day" id="day-23">
+              <div class="day-head">
+                <div>
+                  <span class="day-kicker">ხუთშაბათი</span>
+                  <h2>23 აპრილი</h2>
+                  <p class="day-note">Historic center early + viewpoint loop + central Rome icons</p>
+                </div>
+                <div>
+                  <div class="tag-row">
+                    <span class="tag gold">Trevi crowd hack</span>
+                    <span class="tag olive">სულ უფასო core day</span>
+                    <span class="tag primary">ძალიან ფოტოგენური დღე</span>
+                  </div>
+                  <p class="day-note">
+                    Trevi-ს ახალ 2026 წესს საუკეთესო პასუხი არის ადრე დილა. ამის შემდეგ უკვე მშვიდად აგროვებთ Spanish Steps,
+                    Pincio, Piazza del Popolo-ს და ცენტრალურ რომს ზედმეტი ticket pressure-ის გარეშე.
+                  </p>
+                </div>
+              </div>
+              <div class="timeline">
+                <article class="stop">
+                  <div class="time">07:00-07:35</div>
+                  <div class="stop-body">
+                    <div class="stop-top">
+                      <div>
+                        <h3>Trevi Fountain, სანამ ქალაქი ბოლომდე გაიღვიძებს</h3>
+                        <div class="tag-row">
+                          <span class="tag gold">ყველაზე სწორი დრო</span>
+                          <span class="tag olive">ბაზის close-up fee-ს აცდენა</span>
+                        </div>
+                      </div>
+                      <label class="checkline">
+                        <input type="checkbox" data-task-id="trevi-sunrise" />
+                        ვნახეთ
+                      </label>
+                    </div>
+                    <p>
+                      Trevi-ის ახლო basin access 2026-ში ფასიანია დღის საათებში, მაგრამ piazza თავად უფასოა.
+                      ყველაზე ძლიერი და ბიუჯეტური სლოტია ადრე დილა: crowd მცირეა, ფოტოები სუფთაა, და არ შედიხართ შუადღის ტურბულენტობაში.
+                    </p>
+                    <div class="link-row" style="margin-top: 12px">
+                      <a class="ghost-button" href="https://www.google.com/maps/search/?api=1&query=Trevi+Fountain,+Rome" target="_blank" rel="noopener">Google Maps</a>
+                      <a class="ghost-button" href="https://fontanaditrevi.roma.it/" target="_blank" rel="noopener">Trevi official ticket site</a>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="stop">
+                  <div class="time">07:40-08:15</div>
+                  <div class="stop-body">
+                    <div class="stop-top">
+                      <div>
+                        <h3>Spanish Steps</h3>
+                        <div class="tag-row">
+                          <span class="tag olive">უფასო</span>
+                          <span class="tag gold">Trevi-დან ლოგიკური გაგრძელება</span>
+                        </div>
+                      </div>
+                      <label class="checkline">
+                        <input type="checkbox" data-task-id="spanish-steps" />
+                        ვნახეთ
+                      </label>
+                    </div>
+                    <p>
+                      აქაც crowd advantage დილასაა. მერე უკვე Piazza del Popolo-მდე ადიხართ ზედმეტი detour-ის გარეშე.
+                    </p>
+                    <div class="link-row" style="margin-top: 12px">
+                      <a class="ghost-button" href="https://www.google.com/maps/search/?api=1&query=Spanish+Steps,+Piazza+di+Spagna,+Rome" target="_blank" rel="noopener">Google Maps</a>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="stop">
+                  <div class="time">08:20-09:45</div>
+                  <div class="stop-body">
+                    <div class="stop-top">
+                      <div>
+                        <h3>Piazza del Popolo + Terrazza del Pincio</h3>
+                        <div class="tag-row">
+                          <span class="tag olive">უფასო</span>
+                          <span class="tag primary">საუკეთესო viewpoint ერთ-ერთია</span>
+                        </div>
+                      </div>
+                      <label class="checkline">
+                        <input type="checkbox" data-task-id="pincio-popolo" />
+                        ვნახეთ
+                      </label>
+                    </div>
+                    <p>
+                      აქედან ქალაქის ზომა “იჭერს ფორმას”. თუ ბავშვებს ცოტა breathing space სჭირდებათ, ეს დღე სწორედ ამიტომ მუშაობს.
+                      აქამდე უკვე სამი must-see გაქვთ მოკრეფილი crowd peak-ის დაწყებამდე.
+                    </p>
+                    <div class="link-row" style="margin-top: 12px">
+                      <a class="ghost-button" href="https://www.google.com/maps/search/?api=1&query=Piazza+del+Popolo,+Rome" target="_blank" rel="noopener">Piazza del Popolo</a>
+                      <a class="ghost-button" href="https://www.google.com/maps/search/?api=1&query=Terrazza+del+Pincio,+Rome" target="_blank" rel="noopener">Pincio terrace</a>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="stop">
+                  <div class="time">10:30-12:15</div>
+                  <div class="stop-body">
+                    <div class="stop-top">
+                      <div>
+                        <h3>Piazza Venezia + Campidoglio + Trajan area exteriors</h3>
+                        <div class="tag-row">
+                          <span class="tag olive">უფასო core loop</span>
+                          <span class="tag gold">Ancient Rome-ის შესანიშნავი preview</span>
+                        </div>
+                      </div>
+                      <label class="checkline">
+                        <input type="checkbox" data-task-id="campidoglio-preview" />
+                        გავიარეთ
+                      </label>
+                    </div>
+                    <p>
+                      ეს არის ხვალინდელი Vatican day-ისა და ზეგინდელი Colosseum day-ის შორის საუკეთესო bridge.
+                      აქედან კარგად ხედავთ Forum-ის ზონას გარედან და ხვდებით სივრცის მასშტაბს წინასწარ.
+                    </p>
+                    <div class="link-row" style="margin-top: 12px">
+                      <a class="ghost-button" href="https://www.google.com/maps/search/?api=1&query=Piazza+Venezia,+Rome" target="_blank" rel="noopener">Piazza Venezia</a>
+                      <a class="ghost-button" href="https://www.google.com/maps/search/?api=1&query=Piazza+del+Campidoglio,+Rome" target="_blank" rel="noopener">Campidoglio</a>
+                      <a class="ghost-button" href="https://www.google.com/maps/search/?api=1&query=Trajan%27s+Column,+Rome" target="_blank" rel="noopener">Trajan's Column</a>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="stop">
+                  <div class="time">12:30-13:45</div>
+                  <div class="stop-body">
+                    <div class="stop-top">
+                      <div>
+                        <h3>Lunch window</h3>
+                        <div class="tag-row">
+                          <span class="tag primary">Monti low-budget picks</span>
+                          <span class="tag rose">ან Mercato Centrale თუ ბავშვებს სხვადასხვა რამ უნდათ</span>
+                        </div>
+                      </div>
+                      <label class="checkline">
+                        <input type="checkbox" data-task-id="day2-lunch" />
+                        შევჭამეთ
+                      </label>
+                    </div>
+                    <p>
+                      თუ ყველას სხვადასხვა სურვილი აქვს, Mercato Centrale რეალურად ძალიან კარგი safety valve-ია.
+                      თუ გინდათ უფრო მიზანმიმართული და იაფი stop, Monti-ში დაბრუნება უკეთესია.
+                    </p>
+                  </div>
+                </article>
+
+                <article class="stop">
+                  <div class="time">16:30-18:30</div>
+                  <div class="stop-body">
+                    <div class="stop-top">
+                      <div>
+                        <h3>Flexible evening: Jewish Ghetto / Tiber Island / slow return</h3>
+                        <div class="tag-row">
+                          <span class="tag olive">უფასო</span>
+                          <span class="tag gold">დაღლილობაზე ადაპტირებადი</span>
+                        </div>
+                      </div>
+                      <label class="checkline">
+                        <input type="checkbox" data-task-id="day2-evening-flex" />
+                        შევასრულეთ
+                      </label>
+                    </div>
+                    <p>
+                      ეს სლოტი მიზანმიმართულად რბილია. თუ ენერგია გაქვთ, შეგიძლიათ ეს მხარეც მოკრიფოთ;
+                      თუ არა, უბრალოდ Monti-ში დაბრუნდით და ნუ გადააჭარბებთ, რადგან 24 აპრილი დილით Vatican day-ა.
+                    </p>
+                    <details style="margin-top: 12px">
+                      <summary>თუ paid Colosseum-ზე გადახვალთ</summary>
+                      <p>
+                        სწორედ ამ დღეში შეიძლება გადაიტანოთ Colosseum timed entry. მაშინ Trevi-ის დილა შეინარჩუნეთ,
+                        ხოლო შუადღიდან Colosseum/Forum-ზე გადადით. ეს უფრო მშვიდი, მაგრამ უფრო ძვირი ვერსიაა.
+                      </p>
+                    </details>
+                  </div>
+                </article>
+              </div>
+            </section>
+
+            <section class="day" id="day-24">
+              <div class="day-head">
+                <div>
+                  <span class="day-kicker">პარასკევი</span>
+                  <h2>24 აპრილი</h2>
+                  <p class="day-note">Vatican day done properly</p>
+                </div>
+                <div>
+                  <div class="tag-row">
+                    <span class="tag primary">St. Peter's booked / 10:00</span>
+                    <span class="tag gold">security ადრე დაიწყე</span>
+                    <span class="tag olive">მუზეუმი optional</span>
+                  </div>
+                  <p class="day-note">
+                    დღეს ფოკუსი ერთ მხარესაა. არ გავფანტავთ ენერგიას. Basilica-ს შემდეგ ან მშვიდ Vatican/Prati loop-ს აკეთებთ,
+                    ან თუ ticket იშოვეთ, Vatican Museums-ს ჩაამატებთ.
+                  </p>
+                </div>
+              </div>
+              <div class="timeline">
+                <article class="stop">
+                  <div class="time">08:15-09:30</div>
+                  <div class="stop-body">
+                    <div class="stop-top">
+                      <div>
+                        <h3>Depart Monti → St. Peter's Square security</h3>
+                        <div class="tag-row">
+                          <span class="tag rose">აუცილებლად ადრე</span>
+                        </div>
+                      </div>
+                      <label class="checkline">
+                        <input type="checkbox" data-task-id="vatican-arrival" />
+                        მივედით
+                      </label>
+                    </div>
+                    <p>
+                      St. Peter's official FAQ-ის მიხედვით, security-ს საშუალო დრო დაახლოებით 1.5 საათია.
+                      ამიტომ 10:00 ticket ნიშნავს არა 09:55-ზე მისვლას, არამედ ადრე ჩადგომას.
+                    </p>
+                    <div class="link-row" style="margin-top: 12px">
+                      <a class="ghost-button" href="https://www.google.com/maps/search/?api=1&query=St.+Peter%27s+Basilica,+Vatican+City" target="_blank" rel="noopener">Google Maps</a>
+                      <a class="ghost-button" href="https://www.basilicasanpietro.va/en/help/the-dome" target="_blank" rel="noopener">St. Peter's FAQ</a>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="stop">
+                  <div class="time">10:00-12:30</div>
+                  <div class="stop-body">
+                    <div class="stop-top">
+                      <div>
+                        <h3>St. Peter's Basilica + Dome if included</h3>
+                        <div class="tag-row">
+                          <span class="tag primary">თქვენი ბილეთი</span>
+                          <span class="tag gold">Dome visit საშუალოდ ~1 საათი</span>
+                        </div>
+                      </div>
+                      <label class="checkline">
+                        <input type="checkbox" data-task-id="st-peter-visit" />
+                        ვნახეთ
+                      </label>
+                    </div>
+                    <p>
+                      თუ თქვენს booking-ში dome შედის, მთლიანი block 2-2.5 საათი ჩათვალეთ. Lift route-ზეც კი დარჩენილია
+                      320 საფეხური; სრულ climb-ზე 551 საფეხურია. დიდი ჩანთები არ წაიღოთ.
+                    </p>
+                    <details style="margin-top: 12px">
+                      <summary>რა არის აუცილებელი ამ დღისთვის</summary>
+                      <p>
+                        მხრები და მუხლები დაფარული უნდა იყოს. QR codes წინასწარ გადაამოწმეთ. თუ dome გაქვთ, დროზე ადრე იყავით,
+                        რადგან online ticket-იც security-ს ვერ აუქმებს.
+                      </p>
+                    </details>
+                  </div>
+                </article>
+
+                <article class="stop">
+                  <div class="time">12:45-13:45</div>
+                  <div class="stop-body">
+                    <div class="stop-top">
+                      <div>
+                        <h3>Lunch in Prati</h3>
+                        <div class="tag-row">
+                          <span class="tag primary">Panino Divino</span>
+                          <span class="tag olive">low/medium budget</span>
+                        </div>
+                      </div>
+                      <label class="checkline">
+                        <input type="checkbox" data-task-id="prati-lunch" />
+                        შევჭამეთ
+                      </label>
+                    </div>
+                    <p>
+                      Basilica-ს შემდეგ full sit-down lunch ყოველთვის არ ღირს. კარგი panino stop უკეთესად მუშაობს:
+                      სწრაფია, იაფია და დღეს არ გიფუჭებთ tempo-ს.
+                    </p>
+                  </div>
+                </article>
+
+                <article class="stop">
+                  <div class="time">14:00-16:00</div>
+                  <div class="stop-body">
+                    <div class="stop-top">
+                      <div>
+                        <h3>Castel Sant'Angelo exterior + Ponte Sant'Angelo</h3>
+                        <div class="tag-row">
+                          <span class="tag olive">შესანიშნავი, თუ Museums არ გაქვთ</span>
+                        </div>
+                      </div>
+                      <label class="checkline">
+                        <input type="checkbox" data-task-id="castel-loop" />
+                        გავიარეთ
+                      </label>
+                    </div>
+                    <p>
+                      Vatican-ის გარშემო ყველაზე ლოგიკური გაგრძელებაა. თუ ბავშვებს ენერგია უკვე შეუმცირდათ,
+                      museum overload-ზე ბევრად უკეთესი არჩევანია.
+                    </p>
+                    <div class="link-row" style="margin-top: 12px">
+                      <a class="ghost-button" href="https://www.google.com/maps/search/?api=1&query=Castel+Sant%27Angelo,+Rome" target="_blank" rel="noopener">Castel Sant'Angelo</a>
+                      <a class="ghost-button" href="https://www.google.com/maps/search/?api=1&query=Ponte+Sant%27Angelo,+Rome" target="_blank" rel="noopener">Ponte Sant'Angelo</a>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="stop">
+                  <div class="time">Optional / 14:30-18:00</div>
+                  <div class="stop-body">
+                    <div class="stop-top">
+                      <div>
+                        <h3>Vatican Museums + Sistine Chapel</h3>
+                        <div class="tag-row">
+                          <span class="tag gold">important, but optional branch</span>
+                          <span class="tag rose">official site only</span>
+                        </div>
+                      </div>
+                      <label class="checkline">
+                        <input type="checkbox" data-task-id="vatican-museums-optional" />
+                        თუ ჩავამატეთ
+                      </label>
+                    </div>
+                    <p>
+                      თუ ticket-ებს იშოვით, ეს არის დღეს ჩასმის ყველაზე ნორმალური ფანჯარა. ოფიციალური საიტია მხოლოდ
+                      <strong>tickets.museivaticani.va</strong>. adult full skip-the-line ფასია €20 + €5 booking,
+                      reduced 7-18 წლამდე არის €10 + €5, ხოლო 7 წლამდე უფასოა.
+                    </p>
+                    <details style="margin-top: 12px">
+                      <summary>რატომ არ ვტენით ამას მთავარ გეგმაში</summary>
+                      <p>
+                        Basilica + Dome + Museums ერთ დღეში 11-12 წლის ბავშვებთან უკვე მძიმე combo-ა.
+                        თუ ყველას culture stamina მაღალი არ გაქვთ, ეს ნაწილი გამოტოვეთ დანაშაულის გრძნობის გარეშე.
+                      </p>
+                    </details>
+                    <div class="link-row" style="margin-top: 12px">
+                      <a class="ghost-button" href="https://tickets.museivaticani.va" target="_blank" rel="noopener">Official Vatican tickets</a>
+                      <a class="ghost-button" href="https://www.google.com/maps/search/?api=1&query=Vatican+Museums,+Viale+Vaticano,+Rome" target="_blank" rel="noopener">Google Maps</a>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </section>
+
+            <section class="day" id="day-25">
+              <div class="day-head">
+                <div>
+                  <span class="day-kicker">შაბათი / Holiday</span>
+                  <h2>25 აპრილი</h2>
+                  <p class="day-note">Free-day strategy: Ancient Rome first</p>
+                </div>
+                <div>
+                  <div class="tag-row">
+                    <span class="tag olive">Liberation Day</span>
+                    <span class="tag gold">budget priority day</span>
+                    <span class="tag primary">ყველაზე ადრე იწყება</span>
+                  </div>
+                  <p class="day-note">
+                    დღეს crowd-ს ჩვენ არ ვებრძვით brute force-ით; ვასწრებთ მას. სწორედ ამიტომ დილა იწყება მკაცრად ადრე,
+                    ხოლო შუადღის მერე გეგმა რბილდება.
+                  </p>
+                </div>
+              </div>
+              <div class="timeline">
+                <article class="stop">
+                  <div class="time">07:15-08:30</div>
+                  <div class="stop-body">
+                    <div class="stop-top">
+                      <div>
+                        <h3>Queue for free Colosseum access</h3>
+                        <div class="tag-row">
+                          <span class="tag gold">დღის ყველაზე მნიშვნელოვანი ნაბიჯი</span>
+                          <span class="tag rose">არ დააგვიანოთ</span>
+                        </div>
+                      </div>
+                      <label class="checkline">
+                        <input type="checkbox" data-task-id="free-colosseum-queue" />
+                        რიგში ჩავდექით
+                      </label>
+                    </div>
+                    <p>
+                      Colosseum official site პირდაპირ წერს, რომ 25 აპრილი free admission day-ა. 2025 წლის operational page-ზე
+                      free tickets იყო მხოლოდ ადგილზე, first-come-first-served წესით. 2026-ის სპეციფიკური event page ჯერ არ ჩანს,
+                      ამიტომ ეს ნაწილი დაგეგმილია იმავე crowd logic-ით.
+                    </p>
+                    <details style="margin-top: 12px">
+                      <summary>რას ელოდოთ free-day route-ზე</summary>
+                      <p>
+                        დიდი ალბათობით arena/underground/SUPER sites არ იქნება ჩართული, როგორც 2025-ის 25 აპრილისა და 2026 free Sundays-ის მოდელში.
+                        თუ ამ ზონებს აუცილებლად ითხოვთ, paid backup სჯობს.
+                      </p>
+                    </details>
+                  </div>
+                </article>
+
+                <article class="stop">
+                  <div class="time">08:30-13:15</div>
+                  <div class="stop-body">
+                    <div class="stop-top">
+                      <div>
+                        <h3>Colosseum + Roman Forum + Palatine</h3>
+                        <div class="tag-row">
+                          <span class="tag olive">free day target</span>
+                          <span class="tag primary">must-see ancient Rome</span>
+                        </div>
+                      </div>
+                      <label class="checkline">
+                        <input type="checkbox" data-task-id="ancient-rome-day" />
+                        დავასრულეთ
+                      </label>
+                    </div>
+                    <p>
+                      ეს არის მოგზაურობის მთავარი massive block. სხვა დღეებზე რომ დაყოთ, ბევრი დრო დაიშლება.
+                      აქ ერთად შეკრება სწორი სტრატეგიაა, მით უფრო როცა სახლიდან ახლოს ხართ.
+                    </p>
+                    <div class="link-row" style="margin-top: 12px">
+                      <a class="ghost-button" href="https://www.google.com/maps/search/?api=1&query=Colosseum,+Rome" target="_blank" rel="noopener">Colosseum</a>
+                      <a class="ghost-button" href="https://www.google.com/maps/search/?api=1&query=Roman+Forum,+Rome" target="_blank" rel="noopener">Roman Forum</a>
+                      <a class="ghost-button" href="https://www.google.com/maps/search/?api=1&query=Palatine+Hill,+Rome" target="_blank" rel="noopener">Palatine</a>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="stop">
+                  <div class="time">13:30-14:30</div>
+                  <div class="stop-body">
+                    <div class="stop-top">
+                      <div>
+                        <h3>Late lunch nearby</h3>
+                        <div class="tag-row">
+                          <span class="tag primary">La Prezzemolina / Mizio's / Fuorinorma</span>
+                          <span class="tag olive">low budget friendly</span>
+                        </div>
+                      </div>
+                      <label class="checkline">
+                        <input type="checkbox" data-task-id="ancient-rome-lunch" />
+                        შევჭამეთ
+                      </label>
+                    </div>
+                    <p>
+                      ამ სლოტში სწრაფი, სანდო, review-heavy food გჭირდებათ. დიდი sit-down meal ამ დროს მხოლოდ ენერგიას გაგიფანტავთ.
+                    </p>
+                  </div>
+                </article>
+
+                <article class="stop">
+                  <div class="time">15:00-17:00</div>
+                  <div class="stop-body">
+                    <div class="stop-top">
+                      <div>
+                        <h3>Vittoriano / VIVE / Piazza Venezia</h3>
+                        <div class="tag-row">
+                          <span class="tag gold">holiday-friendly add-on</span>
+                          <span class="tag olive">უფასო პროგრამებიც აქვს ამ დღეს</span>
+                        </div>
+                      </div>
+                      <label class="checkline">
+                        <input type="checkbox" data-task-id="vive-vittoriano" />
+                        ვნახეთ
+                      </label>
+                    </div>
+                    <p>
+                      25 აპრილს VIVE-ს ამ დღისთვის free activities აქვს. ეს არის საუკეთესო ახლო გაგრძელება Colosseum block-ის შემდეგ,
+                      რადგან route არ იშლება. თუ უკვე ძალიან დაღლილები ხართ, ეს ნაწილი შეგიძლიათ უბრალოდ Piazza Venezia exterior-ად შეამციროთ.
+                    </p>
+                    <div class="link-row" style="margin-top: 12px">
+                      <a class="ghost-button" href="https://www.google.com/maps/search/?api=1&query=Vittoriano,+Rome" target="_blank" rel="noopener">Vittoriano Maps</a>
+                      <a class="ghost-button" href="https://vive.cultura.gov.it/en/liberation-day-vive-institute" target="_blank" rel="noopener">VIVE 25 April info</a>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="stop">
+                  <div class="time">17:15-19:00</div>
+                  <div class="stop-body">
+                    <div class="stop-top">
+                      <div>
+                        <h3>Campidoglio sunset or straight back to Monti</h3>
+                        <div class="tag-row">
+                          <span class="tag olive">flex finish</span>
+                        </div>
+                      </div>
+                      <label class="checkline">
+                        <input type="checkbox" data-task-id="day4-sunset" />
+                        შევასრულეთ
+                      </label>
+                    </div>
+                    <p>
+                      თუ ფეხები ჯერ კიდევ გემორჩილებათ, Campidoglio-ს sunset საკმაოდ ძლიერი ბოლო კადრია.
+                      თუ არა, აქვე გაჩერდით და საღამო Monti-ში გადაიყვანეთ. ამ დღეზე მეტი squeezing უკვე ზედმეტია.
+                    </p>
+                  </div>
+                </article>
+              </div>
+            </section>
+          </div>
+        </section>
+
+        <section class="section" id="departure">
+          <div class="section-header">
+            <div>
+              <span class="day-kicker">Departure</span>
+              <h2>26 აპრილი, დილის აეროპორტის გეგმა</h2>
+            </div>
+          </div>
+          <div class="cards-grid">
+            <article class="info-card">
+              <strong>როდის გავიდეთ სახლიდან</strong>
+              <p>
+                08:30 FCO flight-ისთვის მე დავბრონავდი taxi-ს <strong>05:20-05:30</strong>-ზე.
+                ასე ჩვეულებრივ აეროპორტში იქნებით დაახლოებით 06:10-06:25-ის შუალედში, რაც ოჯახისთვის და დილის ფრენისთვის უსაფრთხო buffer-ია.
+              </p>
+            </article>
+            <article class="info-card">
+              <strong>რა ტაქსი ავიღოთ</strong>
+              <p>
+                ისევ licensed official Rome taxi. ქალაქის ცენტრიდან FCO-მდე fixed fare ოფიციალურად ასევე <strong>€55</strong>-ია,
+                თუ გამგზავრება Aurelian Walls-ის შიგნიდან არის.
+              </p>
+            </article>
+            <article class="info-card">
+              <strong>როგორ დავბრონოთ</strong>
+              <p>
+                ყველაზე მარტივი: host-ს სთხოვოთ წინა საღამოს დაგიჯავშნოთ ან გამოიყენოთ
+                <strong>appTaxi</strong> ან <strong>itTaxi</strong>. ორივე მუშაობს advance booking-ზე.
+              </p>
+              <div class="link-row" style="margin-top: 12px">
+                <a class="ghost-button" href="https://apps.apple.com/us/app/apptaxi-book-and-pay-taxis/id537167043" target="_blank" rel="noopener">appTaxi iOS</a>
+                <a class="ghost-button" href="https://ittaxi.it/en/application/" target="_blank" rel="noopener">itTaxi official</a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="tickets">
+          <div class="section-header">
+            <div>
+              <span class="day-kicker">Tickets</span>
+              <h2>ოფიციალური ბილეთები, ფასები და სად უნდა იყიდოთ</h2>
+              <p>
+                აქ მხოლოდ ოფიციალური ან ოფიციალური ინსტიტუციური წყაროებია ჩასმული. live inventory ყველა შემთხვევაში ვერ დავაფიქსირე,
+                რადგან ზოგი კალენდარი bot/JS დაცვაზეა, მაგრამ სწორი გაყიდვის ლინკები და rules აქ გაქვთ.
+              </p>
+            </div>
+          </div>
+          <div class="cards-grid">
+            <article class="info-card">
+              <strong>Pantheon</strong>
+              <p>
+                უკვე შეძენილი გაქვთ 22 აპრილს 17:00-ზე. გახსოვდეთ pickup/meeting point
+                <strong>Via dei Bergamaschi 49</strong>, თუ თქვენს confirmation-ში ეგ წერია.
+                ოფიციალური opening: ყოველდღე 09:00-19:00, ბოლო შესვლა 18:45-მდე.
+              </p>
+              <div class="action-row" style="margin-top: 12px">
+                <a class="ghost-button" href="https://www.pantheonroma.com/en/visit-the-pantheon/" target="_blank" rel="noopener">Official Pantheon</a>
+                <a class="ghost-button" href="https://www.google.com/maps/search/?api=1&query=Via+dei+Bergamaschi+49,+Rome" target="_blank" rel="noopener">Pickup point</a>
+              </div>
+            </article>
+
+            <article class="info-card">
+              <strong>St. Peter's Basilica / Dome</strong>
+              <p>
+                უკვე გაქვთ 24 აპრილს 10:00-ზე. Basilica summer hours: 07:00-19:10. Dome hours: დაახლოებით 07:00-18:00
+                summer period-ში. official FAQ-ში security wait საშუალოდ 1.5 საათია.
+              </p>
+              <div class="action-row" style="margin-top: 12px">
+                <a class="ghost-button" href="https://www.basilicasanpietro.va/en/opening-hours" target="_blank" rel="noopener">Opening hours</a>
+                <a class="ghost-button" href="https://www.basilicasanpietro.va/en/help/the-dome" target="_blank" rel="noopener">Visitor FAQ</a>
+              </div>
+            </article>
+
+            <article class="info-card">
+              <strong>Vatican Museums / Sistine Chapel</strong>
+              <p>
+                მხოლოდ official site: <strong>tickets.museivaticani.va</strong>. adult full skip-the-line €25,
+                reduced 7-18 years €15, under 7 free. Museums open Monday-Saturday 08:00-20:00, final entry 18:00.
+              </p>
+              <div class="action-row" style="margin-top: 12px">
+                <a class="ghost-button" href="https://tickets.museivaticani.va" target="_blank" rel="noopener">Official tickets</a>
+                <a class="ghost-button" href="https://www.museivaticani.va/content/museivaticani/en/organizza-visita/tariffe-e-biglietti.html" target="_blank" rel="noopener">Prices</a>
+              </div>
+            </article>
+
+            <article class="info-card">
+              <strong>Colosseum paid backup</strong>
+              <p>
+                ticket sales officially open 30 days before visit. Standard named tickets official site-ზე იყიდება.
+                18 წლამდე უფასო არიან, მაგრამ free ticket booking სჭირდებათ. თუ comfort გინდათ, ეს არის free-day plan-ის ალტერნატივა.
+              </p>
+              <div class="action-row" style="margin-top: 12px">
+                <a class="ghost-button" href="https://ticketing.colosseo.it/en" target="_blank" rel="noopener">Official Colosseum ticketing</a>
+                <a class="ghost-button" href="https://colosseo.it/en/opening-times-and-tickets/" target="_blank" rel="noopener">Opening + rules</a>
+              </div>
+            </article>
+
+            <article class="info-card">
+              <strong>Colosseum free-day reality check</strong>
+              <p>
+                ოფიციალური site პირდაპირ ამბობს, რომ 25 აპრილი free admission day-ა. წინა წლის Liberation Day model-ზე
+                tickets ადგილზე, რიგით გაიცემოდა და სპეციალური ზონები ხშირად დახურული იყო. ეს გეგმა იმავე ლოგიკაზე დგას.
+              </p>
+              <div class="action-row" style="margin-top: 12px">
+                <a class="ghost-button" href="https://colosseo.it/en/opening-times-and-tickets/" target="_blank" rel="noopener">Free day rule</a>
+                <a class="ghost-button" href="https://colosseo.it/en/event/free-admission-friday-25-april-2025-liberation-day/" target="_blank" rel="noopener">2025 event model</a>
+              </div>
+            </article>
+
+            <article class="info-card">
+              <strong>Trevi Fountain close-up access</strong>
+              <p>
+                2026-ში ახლო basin area non-residents-ისთვის €2 გახდა. Piazza-დან ნახვა ისევ უფასოა.
+                საუკეთესო plan: ან ადრე დილა, ან 22:00-ის შემდეგ free access window.
+              </p>
+              <div class="action-row" style="margin-top: 12px">
+                <a class="ghost-button" href="https://fontanaditrevi.roma.it/" target="_blank" rel="noopener">Official Trevi portal</a>
+                <a class="ghost-button" href="https://www.marcoaurelio.comune.roma.it/-/fontana-di-trevi-nuovo-sistema-di-accesso-per-uno-dei-simboli-di-roma" target="_blank" rel="noopener">Municipal notice</a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="food">
+          <div class="section-header">
+            <div>
+              <span class="day-kicker">Food Map</span>
+              <h2>სად ვჭამოთ ისე, რომ tourist-trap-ში არ შევიდეთ</h2>
+              <p>
+                აქ პრიორიტეტია ბევრი კარგი review, ჯერ დაბალი ბიუჯეტი, მერე საშუალო. Google review მონაცემები მივამაგრე იქ,
+                სადაც სანდოდ დავაფიქსირე review aggregators-ზე, რომლებიც Google Maps ratings-ს აჯამებენ.
+              </p>
+            </div>
+          </div>
+
+          <div class="callout">
+            <strong>წესი, რომელიც ყველაზე მეტ ფულს და ნერვს დაგიზოგავთ:</strong>
+            <p style="margin-top: 10px">
+              ნუ დაჯდებით იმ პირველ მაგიდაზე, რომელიც Pantheon / Navona / Trevi / Vatican gate-ის პირდაპირ გხვდებათ.
+              5-10 წუთის დაშორება კვებაზე რომში თითქმის ყოველთვის უკეთეს value-ს ნიშნავს.
+            </p>
+          </div>
+
+          <div class="food-grid" style="margin-top: 18px">
+            <article class="food-card">
+              <div class="tag-row">
+                <span class="tag olive">Monti</span>
+                <span class="tag primary">€</span>
+              </div>
+              <strong>Trieste Pizza</strong>
+              <p>
+                ძალიან კარგი low-budget fallback Monti-ში. Google data mirror-ზე დაახლოებით
+                <strong>4.7 / 4.7K reviews</strong>. მარტივი, სწრაფი, value-for-money არჩევანი.
+              </p>
+              <div class="link-row" style="margin-top: 12px">
+                <a class="ghost-button" href="https://www.google.com/maps/search/?api=1&query=Trieste+Pizza,+Via+Urbana+112,+Rome" target="_blank" rel="noopener">Maps</a>
+                <a class="ghost-button" href="https://triestepizza.eatbu.com/?lang=en" target="_blank" rel="noopener">Website</a>
+              </div>
+            </article>
+
+            <article class="food-card">
+              <div class="tag-row">
+                <span class="tag olive">Monti</span>
+                <span class="tag primary">€ / €€</span>
+              </div>
+              <strong>Fuorinorma</strong>
+              <p>
+                sandwich/deli ტიპის ძალიან ძლიერი არჩევანი სახლთან ახლოს. დაახლოებით
+                <strong>4.9 / 2.5K reviews</strong>. portions უზარმაზარი არაა, მაგრამ ხარისხი consistently მაღალია.
+              </p>
+              <div class="link-row" style="margin-top: 12px">
+                <a class="ghost-button" href="https://www.google.com/maps/search/?api=1&query=Fuorinorma,+Via+dei+Serpenti+178,+Rome" target="_blank" rel="noopener">Maps</a>
+                <a class="ghost-button" href="https://www.fuorinorma.com/" target="_blank" rel="noopener">Website</a>
+              </div>
+            </article>
+
+            <article class="food-card">
+              <div class="tag-row">
+                <span class="tag olive">Monti</span>
+                <span class="tag primary">€ / €€</span>
+              </div>
+              <strong>Mizio's Street Food</strong>
+              <p>
+                კარგი grab-and-go ან სწრაფი lunch/dinner. review mirrors-ზე
+                <strong>4.7 / 2.3K-2.5K reviews</strong>. განსაკუთრებით კარგია თუ სწრაფი, გემრიელი, არაჩვეულებრივი panino გინდათ.
+              </p>
+              <div class="link-row" style="margin-top: 12px">
+                <a class="ghost-button" href="https://www.google.com/maps/search/?api=1&query=Mizio%27s+Street+Food,+Via+degli+Zingari+54A,+Rome" target="_blank" rel="noopener">Maps</a>
+                <a class="ghost-button" href="https://miziostreetfood.it/" target="_blank" rel="noopener">Website</a>
+              </div>
+            </article>
+
+            <article class="food-card">
+              <div class="tag-row">
+                <span class="tag olive">Colosseo side</span>
+                <span class="tag primary">€</span>
+              </div>
+              <strong>La Prezzemolina</strong>
+              <p>
+                Colosseum-მახლობლად ერთ-ერთი ყველაზე კარგი low-budget tactical stop.
+                Google data mirror-ზე დაახლოებით <strong>4.8 / 3.1K reviews</strong>.
+                იდეალურია 25 აპრილის lunch window-სთვის.
+              </p>
+              <div class="link-row" style="margin-top: 12px">
+                <a class="ghost-button" href="https://www.google.com/maps/search/?api=1&query=La+Prezzemolina,+Via+del+Colosseo+1,+Rome" target="_blank" rel="noopener">Maps</a>
+                <a class="ghost-button" href="https://www.turismoroma.it/en/hospitality/la-prezzemolina" target="_blank" rel="noopener">Info</a>
+              </div>
+            </article>
+
+            <article class="food-card">
+              <div class="tag-row">
+                <span class="tag olive">Prati / Vatican</span>
+                <span class="tag primary">€ / €€</span>
+              </div>
+              <strong>Panino Divino</strong>
+              <p>
+                Basilica/Museums day-ისთვის საუკეთესო practical არჩევანია. დაახლოებით
+                <strong>4.7 / 2.1K reviews</strong>. ფასები Vatican gate-ის immediate zone-სთან შედარებით ბევრად ჯანსაღია.
+              </p>
+              <div class="link-row" style="margin-top: 12px">
+                <a class="ghost-button" href="https://www.google.com/maps/search/?api=1&query=Panino+Divino,+Via+dei+Gracchi+11A,+Rome" target="_blank" rel="noopener">Maps</a>
+                <a class="ghost-button" href="https://wanderlog.com/place/details/423972/panino-divino" target="_blank" rel="noopener">Reviews mirror</a>
+              </div>
+            </article>
+
+            <article class="food-card">
+              <div class="tag-row">
+                <span class="tag olive">Testaccio / market lunch</span>
+                <span class="tag gold">სარეზერვო food stop</span>
+              </div>
+              <strong>Mercato di Testaccio</strong>
+              <p>
+                თუ ერთ სივრცეში გინდათ ბევრი ალტერნატივა და უფრო local vibe, ეს კარგია.
+                დაახლოებით <strong>4.4 / 8.5K reviews</strong> როგორც whole market.
+                საუკეთესოა თუ 25 აპრილის მეორე ნახევარში Ancient Rome-ის მერე ძალა კიდევ გაქვთ.
+              </p>
+              <div class="link-row" style="margin-top: 12px">
+                <a class="ghost-button" href="https://www.google.com/maps/search/?api=1&query=Mercato+di+Testaccio,+Via+Aldo+Manuzio+66B,+Rome" target="_blank" rel="noopener">Maps</a>
+                <a class="ghost-button" href="https://www.postcard.inc/places/testaccio-market-rome?userId=google" target="_blank" rel="noopener">Reviews mirror</a>
+              </div>
+            </article>
+
+            <article class="food-card">
+              <div class="tag-row">
+                <span class="tag olive">Termini / bad weather backup</span>
+                <span class="tag rose">mixed hall</span>
+              </div>
+              <strong>Mercato Centrale Roma</strong>
+              <p>
+                როცა ყველას სხვადასხვა რამ უნდა, ეს სივრცე პრობლემას ხსნის.
+                დაახლოებით <strong>4.4 / 14.1K reviews</strong>. არ არის ყველაზე იაფი ვარიანტი თითოეულ stall-ზე,
+                მაგრამ family logistics-ისთვის ხშირად ამართლებს.
+              </p>
+              <div class="link-row" style="margin-top: 12px">
+                <a class="ghost-button" href="https://www.google.com/maps/search/?api=1&query=Mercato+Centrale+Roma,+Via+Giovanni+Giolitti+36,+Rome" target="_blank" rel="noopener">Maps</a>
+                <a class="ghost-button" href="https://www.mercatocentrale.it/roma/" target="_blank" rel="noopener">Website</a>
+              </div>
+            </article>
+
+            <article class="food-card">
+              <div class="tag-row">
+                <span class="tag olive">Vatican side</span>
+                <span class="tag rose">€€ / iconic but mixed value</span>
+              </div>
+              <strong>Pizzarium Bonci</strong>
+              <p>
+                მხოლოდ იმ შემთხვევაში ჩასვი, თუ iconic Roman pizza al taglio-სთვის მზად ხარ უფრო მაღალი ფასისა და რიგისთვის.
+                reviews ბევრია (<strong>4.2 / 10.7K</strong>), მაგრამ value feedback mixed არის.
+              </p>
+              <div class="link-row" style="margin-top: 12px">
+                <a class="ghost-button" href="https://www.google.com/maps/search/?api=1&query=Pizzarium+Bonci,+Via+della+Meloria+43,+Rome" target="_blank" rel="noopener">Maps</a>
+                <a class="ghost-button" href="https://www.tripexpert.com/rome/restaurants/pizzarium-bonci" target="_blank" rel="noopener">Review summary</a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="tools">
+          <div class="section-header">
+            <div>
+              <span class="day-kicker">Apps + Practical</span>
+              <h2>რა უნდა გადმოწეროთ და რა უნდა იცოდეთ ადგილზე</h2>
+            </div>
+          </div>
+          <div class="tools-grid">
+            <article class="tool-card">
+              <strong>ATAC Roma app</strong>
+              <p>
+                2026-იდან ATAC-ს უკვე თავისი ახალი ოფიციალური app აქვს. რეალურ დროს გაჩვენებთ arrivals-ს,
+                route planning-ს და digital tickets-ს.
+              </p>
+              <div class="link-row" style="margin-top: 12px">
+                <a class="ghost-button" href="https://www.atac.roma.it/en/tickets-and-passes/atac-roma-app" target="_blank" rel="noopener">Official app page</a>
+              </div>
+            </article>
+
+            <article class="tool-card">
+              <strong>Tap &amp; Go</strong>
+              <p>
+                თუ ზედმეტი app-ები არ გინდათ, Rome public transport-ზე contactless bank card-იც საკმარისია.
+                მეტროსა და ზედაპირულ ტრანსპორტზე გამოიყენება.
+              </p>
+              <div class="link-row" style="margin-top: 12px">
+                <a class="ghost-button" href="https://www.atac.roma.it/en/tickets-and-passes/tap-go" target="_blank" rel="noopener">Tap &amp; Go rules</a>
+              </div>
+            </article>
+
+            <article class="tool-card">
+              <strong>appTaxi / itTaxi</strong>
+              <p>
+                დილის აეროპორტის transfer-ისთვის კარგი backup-ებია. appTaxi-ს review base უფრო ჯანსაღი ჩანს,
+                itTaxi-ს კი უფრო დიდი ეროვნული ქსელი აქვს.
+              </p>
+              <ul>
+                <li>25 აპრილის ღამესვე დააბრონეთ 26-ის დილის taxi.</li>
+                <li>Pickup notes-ში მიუთითეთ 4 passengers + luggage.</li>
+              </ul>
+            </article>
+
+            <article class="tool-card">
+              <strong>MyColosseum + Pantheon app</strong>
+              <p>
+                Colosseum-ს აქვს ოფიციალური MyColosseum app, Pantheon-ს კი საკუთარი official app/audio tools.
+                თუ paid tickets-ზე გადახვალთ, ეს apps დაგეხმარებათ ადგილზე context-ის დაჭერაში.
+              </p>
+              <div class="link-row" style="margin-top: 12px">
+                <a class="ghost-button" href="https://colosseo.it/en/opening-times-and-tickets/" target="_blank" rel="noopener">MyColosseum info</a>
+                <a class="ghost-button" href="https://www.pantheonroma.com/en/openings-info/" target="_blank" rel="noopener">Pantheon app info</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="callout" style="margin-top: 18px">
+            <strong>უსაფრთხოების მოკლე ვერსია</strong>
+            <ul class="notes-list">
+              <li>ჯიბის ქურდობაზე ყველაზე ფრთხილად იყავით overcrowded zones-ში: Trevi, Termini, bus 64 axis, Vatican approaches.</li>
+              <li>არავისთან არ შედგეთ “free bracelet / photo / rose” სქემებზე.</li>
+              <li>Rome licensed taxis არის თეთრი, roof-ზე `TAXI` ნიშნით და license number-ით.</li>
+              <li>პატარა წყლის ბოთლი ატარეთ. რომში free public fountains ქალაქის rhythm-ის ნაწილია.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="section" id="sources">
+          <div class="section-header">
+            <div>
+              <span class="day-kicker">Sources</span>
+              <h2>კვლევის ბირთვი</h2>
+              <p>
+                სადაც დრო-სენსიტიური ან ფულის ხარჯთან დაკავშირებული ინფორმაცია იყო, ვეყრდნობოდი ოფიციალურ წყაროებს.
+                crowd logic და კვების shortlist ნაწილობრივ არის ოფიციალური საათების, municipal notices-ის და review datasets-ის სინთეზი.
+              </p>
+            </div>
+          </div>
+          <div class="sources">
+            <article class="source-item">
+              <strong>ADR / Aeroporti di Roma</strong>
+              <p>
+                FCO taxi fixed fare to Rome city center within Aurelian Walls: €55. Source:
+                <a href="https://www.adr.it/web/aeroporti-di-roma-en/pax-fco-taxi" target="_blank" rel="noopener">adr.it</a>.
+              </p>
+            </article>
+            <article class="source-item">
+              <strong>Colosseum Archaeological Park official site</strong>
+              <p>
+                25 April free admission, opening rules, ticketing window, under-18 free entry rules. Sources:
+                <a href="https://colosseo.it/en/opening-times-and-tickets/" target="_blank" rel="noopener">opening times</a>,
+                <a href="https://colosseo.it/en/event/free-admission-friday-25-april-2025-liberation-day/" target="_blank" rel="noopener">2025 Liberation Day model</a>,
+                <a href="https://colosseo.it/en/free-entry-to-the-colosseum-archaeological-park-and-italian-museums/" target="_blank" rel="noopener">free ticket rules</a>.
+              </p>
+            </article>
+            <article class="source-item">
+              <strong>Vatican Museums official site</strong>
+              <p>
+                hours, prices, official ticket warning, child pricing. Sources:
+                <a href="https://www.museivaticani.va/content/museivaticani/en/organizza-visita/tariffe-e-biglietti.html" target="_blank" rel="noopener">prices and tickets</a>,
+                <a href="https://www.museivaticani.va/content/museivaticani/en/info/orari-musei-vaticani.html" target="_blank" rel="noopener">closures and hours</a>.
+              </p>
+            </article>
+            <article class="source-item">
+              <strong>St. Peter's Basilica official site</strong>
+              <p>
+                opening hours, dome hours, security queue guidance, climb facts. Sources:
+                <a href="https://www.basilicasanpietro.va/en/opening-hours" target="_blank" rel="noopener">opening hours</a>,
+                <a href="https://www.basilicasanpietro.va/en/help/the-dome" target="_blank" rel="noopener">FAQ</a>,
+                <a href="https://www.basilicasanpietro.va/en/products/the-dome" target="_blank" rel="noopener">dome booking</a>.
+              </p>
+            </article>
+            <article class="source-item">
+              <strong>Pantheon official site</strong>
+              <p>
+                hours, meeting point, official ticket flow. Sources:
+                <a href="https://www.pantheonroma.com/en/openings-info/" target="_blank" rel="noopener">opening info</a>,
+                <a href="https://www.pantheonroma.com/en/visit-the-pantheon/" target="_blank" rel="noopener">visit the Pantheon</a>.
+              </p>
+            </article>
+            <article class="source-item">
+              <strong>Rome municipal / cultural notices</strong>
+              <p>
+                25 April VIVE activities and 2026 Trevi access system. Sources:
+                <a href="https://vive.cultura.gov.it/en/liberation-day-vive-institute" target="_blank" rel="noopener">VIVE</a>,
+                <a href="https://www.marcoaurelio.comune.roma.it/-/fontana-di-trevi-nuovo-sistema-di-accesso-per-uno-dei-simboli-di-roma" target="_blank" rel="noopener">Trevi municipal notice</a>.
+              </p>
+            </article>
+            <article class="source-item">
+              <strong>Food review datasets</strong>
+              <p>
+                Review counts for shortlist are cross-checked through mirrors that explicitly surface Google review data:
+                <a href="https://www.top-rated.online/" target="_blank" rel="noopener">Top Rated Online</a>,
+                <a href="https://wanderlog.com/" target="_blank" rel="noopener">Wanderlog</a>,
+                <a href="https://www.tripexpert.com/" target="_blank" rel="noopener">Tripexpert</a>,
+                plus each venue's own site where available.
+              </p>
+            </article>
+          </div>
+
+          <p class="footer-note">
+            Data note: live ticket availability for some official booking engines could not be scraped directly because the calendars use
+            anti-bot / JS-heavy flows. The official purchase portals are linked above so you can check inventory live from the same guide.
+          </p>
+        </section>
+      </main>
+    </div>
+
+    <script>
+      const STORAGE_KEY = "rome-family-guide-2026-checks";
+      const checkboxes = Array.from(document.querySelectorAll("input[type='checkbox'][data-task-id]"));
+      const progressBar = document.getElementById("progress-bar");
+      const progressText = document.getElementById("progress-text");
+
+      function loadState() {
+        try {
+          return JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
+        } catch {
+          return {};
+        }
+      }
+
+      function saveState(state) {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+      }
+
+      function updateProgress() {
+        const total = checkboxes.length;
+        const done = checkboxes.filter((checkbox) => checkbox.checked).length;
+        const percent = total ? Math.round((done / total) * 100) : 0;
+        progressBar.style.width = percent + "%";
+        progressText.textContent = `${done} / ${total} დასრულებული`;
+      }
+
+      const savedState = loadState();
+
+      checkboxes.forEach((checkbox) => {
+        checkbox.checked = Boolean(savedState[checkbox.dataset.taskId]);
+        checkbox.addEventListener("change", () => {
+          const state = loadState();
+          state[checkbox.dataset.taskId] = checkbox.checked;
+          saveState(state);
+          updateProgress();
+        });
+      });
+
+      updateProgress();
+    </script>
+  </body>
+</html>
