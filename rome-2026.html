@@ -813,6 +813,8 @@ a.site-url:hover { text-decoration: underline; }
 
 /* ─── MAP LINKS ─────────────────────────────────── */
 
+.dist-tag { font-size: 10.5px; color: var(--c-fg-muted); font-weight: 400; white-space: nowrap; }
+
 a.map-link {
   color: inherit;
   text-decoration: none;
@@ -2382,6 +2384,55 @@ initRows();
 loadRowStates();
 initRestItems();
 loadRestStates();
+
+// ─── Distance Tags ────────────────────────────────────
+const DISTANCES = {
+  'Fiumicino': '36 km · 🚕',
+  'სახლი': '',
+  'სახლიდან': '',
+  'Rione Monti': '300მ · 4წთ 🦶',
+  'Santa Maria Maggiore': '900მ · 14წთ 🦶',
+  'Colle Oppio': '900მ · 13წთ 🦶',
+  'პანთეონი': '1.5კმ · 20წთ 🦶',
+  'Giolitti': '1.6კმ · 21წთ 🦶',
+  'ტრევის შადრევანი': '1კმ · 13წთ 🦶',
+  'Piazza Navona': '1.8კმ · 25წთ 🦶',
+  'Largo di Torre Argentina': '1.3კმ · 18წთ 🦶',
+  'Campo de\' Fiori': '1.8კმ · 25წთ 🦶',
+  'San Clemente': '1.1კმ · 16წთ 🦶',
+  'კაპიტოლინის გორა': '1.1კმ · 16წთ 🦶',
+  'Altare della Patria': '1კმ · 15წთ 🦶',
+  'Da Enzo al 29': '2.4კმ · 34წთ 🦶',
+  'Tonnarello': '2.4კმ · 34წთ 🦶',
+  'პეტრეს ბაზილიკა': '3კმ · 🚇 15წთ',
+  'Pizzarium Bonci': '4.6კმ · 🚇+🦶',
+  'ვატიკანის მუზეუმები': '3.8კმ · 🚇 15წთ',
+  'Ponte Sant\'Angelo': '2.5კმ · 34წთ 🦶',
+  'კოლიზეუმი': '700მ · 11წთ 🦶',
+  'Roman Forum': '400მ · 6წთ 🦶',
+  'Bocca della Verità': '1.7კმ · 23წთ 🦶',
+  'Circus Maximus': '1.5კმ · 20წთ 🦶',
+  'Testaccio': '3.1კმ · 🚌 20წთ',
+  'Borghese Gallery': '2.7კმ · 🚕 15წთ',
+  'ვილა ბორგეზეს': '2.1კმ · 31წთ 🦶',
+  'Castel Sant\'Angelo': '2.6კმ · 35წთ 🦶',
+};
+
+function addDistanceTags() {
+  document.querySelectorAll('.tl-place').forEach(place => {
+    const text = place.textContent;
+    for (const [name, dist] of Object.entries(DISTANCES)) {
+      if (dist && text.includes(name)) {
+        const tag = document.createElement('span');
+        tag.className = 'dist-tag';
+        tag.textContent = ' · ' + dist;
+        place.appendChild(tag);
+        break;
+      }
+    }
+  });
+}
+addDistanceTags();
 
 // Make nav scroll to active on load
 document.querySelector('.nav-btn.active')?.scrollIntoView({ block: 'nearest', inline: 'center' });
