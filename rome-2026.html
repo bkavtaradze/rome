@@ -148,6 +148,16 @@ body {
   box-shadow: 0 1px 8px rgba(0,0,0,.06);
   border-radius: 0 0 10px 10px;
 }
+.nav-wrap::after {
+  content: '';
+  position: absolute;
+  right: 0; top: 0; bottom: 0;
+  width: 32px;
+  background: linear-gradient(90deg, transparent, var(--c-surface));
+  pointer-events: none;
+  z-index: 1;
+  border-radius: 0 0 10px 0;
+}
 
 .nav {
   display: flex;
@@ -204,7 +214,7 @@ body {
 
 .page {
   display: none;
-  padding: 16px 14px 96px;
+  padding: 20px 14px 96px;
   animation: fadeUp 240ms ease both;
 }
 .page.active { display: block; }
@@ -346,8 +356,8 @@ body {
 .tl-row.highlight {
   background: linear-gradient(90deg, rgba(217,119,6,.06) 0%, transparent 100%);
   border-radius: var(--radius-sm);
-  padding-left: 8px;
-  margin-left: -8px;
+  padding-left: 12px;
+  margin-left: -4px;
   border-bottom-color: rgba(217,119,6,.15);
 }
 .tl-row.highlight::before {
@@ -372,8 +382,8 @@ body {
 
 .tl-check {
   flex-shrink: 0;
-  width: 20px;
-  height: 20px;
+  width: 22px;
+  height: 22px;
   border-radius: 50%;
   border: 2px solid var(--c-border-strong);
   background: var(--c-surface);
@@ -381,7 +391,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 2px;
+  margin-top: 1px;
   transition: all 150ms ease;
 }
 .tl-check:hover {
@@ -391,8 +401,8 @@ body {
 .tl-check::after {
   content: '';
   display: none;
-  width: 10px;
-  height: 10px;
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
   background: var(--c-primary);
 }
@@ -427,7 +437,7 @@ body {
   font-size: 12px;
   color: var(--c-fg-muted);
   margin-top: 3px;
-  line-height: 1.4;
+  line-height: 1.55;
 }
 
 .tl-price {
@@ -617,7 +627,7 @@ body {
 
 .crowd-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1.2fr 1fr 1fr;
   gap: 2px;
 }
 .crowd-row {
@@ -665,10 +675,11 @@ body {
   border-bottom: 1px solid var(--c-border);
 }
 .rest-item:last-child { border-bottom: none; padding-bottom: 0; }
-.rest-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; }
+.rest-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 6px; }
+.rest-top > span { white-space: nowrap; }
 .rest-name { font-size: 14px; font-weight: 600; }
-.rest-addr { font-size: 12px; color: var(--c-fg-muted); margin-top: 2px; }
-.rest-note { font-size: 12.5px; color: var(--c-fg); margin-top: 3px; }
+.rest-addr { font-size: 12px; color: var(--c-fg-muted); margin-top: 2px; line-height: 1.45; }
+.rest-note { font-size: 12.5px; color: var(--c-fg); margin-top: 4px; line-height: 1.5; }
 
 /* ─── APP LIST ───────────────────────────────────── */
 
@@ -748,7 +759,8 @@ body {
 }
 .site-row:last-child { border-bottom: none; }
 .site-name { font-size: 14px; font-weight: 500; }
-.site-url { font-size: 11.5px; color: #2563EB; word-break: break-all; text-align: right; }
+.site-url { font-size: 11.5px; color: #2563EB; word-break: break-all; text-align: right; text-decoration: none; }
+a.site-url:hover { text-decoration: underline; }
 
 /* ─── DIVIDER ────────────────────────────────────── */
 .divider {
@@ -772,6 +784,11 @@ a.map-link:hover, a.map-link:active {
 /* Scrollbar for nav */
 @media (hover: hover) {
   .nav::-webkit-scrollbar { display: none; }
+}
+
+/* Desktop padding */
+@media (min-width: 920px) {
+  body { padding: 0 16px; }
 }
 
 </style>
@@ -831,7 +848,7 @@ a.map-link:hover, a.map-link:active {
       </div>
       <div class="urgent-text">
         <div class="urgent-name">ვატიკანის მუზეუმები</div>
-        <div class="urgent-sub">24 აპრ. 14:00 სლოტი · tickets.museivaticani.va</div>
+        <div class="urgent-sub">24 აპრ. 14:00 სლოტი · <a class="map-link" href="https://tickets.museivaticani.va" target="_blank" rel="noopener" style="color:#2563EB;">tickets.museivaticani.va</a></div>
       </div>
       <span class="badge badge-red" aria-label="ახლავე გასაკეთებელი">ახლავე</span>
     </div>
@@ -842,7 +859,7 @@ a.map-link:hover, a.map-link:active {
       </div>
       <div class="urgent-text">
         <div class="urgent-name">Borghese Gallery <span class="badge badge-free" style="margin-left:4px">FREE!</span></div>
-        <div class="urgent-sub">25 აპრ. 13:00 · galleriaborghese.beniculturali.it</div>
+        <div class="urgent-sub">25 აპრ. 14:00 · <a class="map-link" href="https://galleriaborghese.beniculturali.it" target="_blank" rel="noopener" style="color:#2563EB;">galleriaborghese.beniculturali.it</a></div>
       </div>
       <span class="badge badge-red">15 აპრ.</span>
     </div>
@@ -914,7 +931,7 @@ a.map-link:hover, a.map-link:active {
       <div class="ticket-icon" aria-hidden="true">⏳</div>
       <div class="ticket-body">
         <div class="ticket-name">Borghese Gallery</div>
-        <div class="ticket-when">25 აპრ. 13:00 · ᲣᲤᲐᲡᲝ</div>
+        <div class="ticket-when">25 აპრ. 14:00 · ᲣᲤᲐᲡᲝ</div>
       </div>
       <span class="badge badge-red">საჭირო</span>
     </div>
@@ -959,7 +976,7 @@ a.map-link:hover, a.map-link:active {
         </div>
       </div>
       <div class="tl-row">
-        <div class="tl-time">10:30–12:00</div>
+        <div class="tl-time">10:30–11:30</div>
         <div class="tl-body">
           <div class="tl-place">🚶 <a class="map-link" href="https://maps.google.com/?q=Rione+Monti+Rome+Italy" target="_blank" rel="noopener">Rione Monti</a> სეირნობა</div>
           <div class="tl-note"><a class="map-link" href="https://maps.google.com/?q=Via+del+Boschetto+Rome+Italy" target="_blank" rel="noopener">Via del Boschetto</a> · <a class="map-link" href="https://maps.google.com/?q=Via+dei+Serpenti+Rome+Italy" target="_blank" rel="noopener">Via dei Serpenti</a> · <a class="map-link" href="https://maps.google.com/?q=Piazza+della+Madonna+dei+Monti+Rome+Italy" target="_blank" rel="noopener">Piazza della Madonna dei Monti</a></div>
@@ -970,7 +987,7 @@ a.map-link:hover, a.map-link:active {
         <div class="tl-time">11:30–12:00</div>
         <div class="tl-body">
           <div class="tl-place"><span class="star-icon" aria-label="ჰაილაითი">★</span> ⛪ <a class="map-link" href="https://maps.google.com/?q=Basilica+di+Santa+Maria+Maggiore+Rome+Italy" target="_blank" rel="noopener">Santa Maria Maggiore</a></div>
-          <div class="tl-note">Papal Basilica — Monti-დან 5 წუთის სავალი</div>
+          <div class="tl-note">Papal Basilica — Monti-ს სეირნობის ბოლოს, 5 წუთის სავალი</div>
         </div>
         <div class="tl-price free-price">უფასო</div>
       </div>
@@ -1005,7 +1022,7 @@ a.map-link:hover, a.map-link:active {
         <div class="tl-price ok-price">✅</div>
       </div>
       <div class="tl-row">
-        <div class="tl-time">17:45</div>
+        <div class="tl-time">18:00</div>
         <div class="tl-body">
           <div class="tl-place">🍦 <a class="map-link" href="https://maps.google.com/?q=Giolitti+Via+degli+Uffici+del+Vicario+40+Rome" target="_blank" rel="noopener">Giolitti</a> — გელატო</div>
           <div class="tl-note">4.4 · 27.6K რივიუ · 1900-დან · პანთეონიდან 2 წუთი!</div>
@@ -1013,7 +1030,7 @@ a.map-link:hover, a.map-link:active {
         <div class="tl-price paid-price">€3–5</div>
       </div>
       <div class="tl-row highlight">
-        <div class="tl-time">18:00–19:00</div>
+        <div class="tl-time">18:15–19:00</div>
         <div class="tl-body">
           <div class="tl-place"><span class="star-icon" aria-label="ჰაილაითი">★</span> <a class="map-link" href="https://maps.google.com/?q=Trevi+Fountain+Rome+Italy" target="_blank" rel="noopener">ტრევის შადრევანი</a></div>
           <div class="tl-note">10 წუთი ქვეითად · 18:00 = ნაკლები ხალხი + ლამაზი განათება</div>
@@ -1262,7 +1279,7 @@ a.map-link:hover, a.map-link:active {
         <div class="tl-price paid-price">~€18</div>
       </div>
       <div class="tl-row highlight">
-        <div class="tl-time">13:00–15:00</div>
+        <div class="tl-time">14:00–16:00</div>
         <div class="tl-body">
           <div class="tl-place"><span class="star-icon">★</span><span class="star-icon">★</span> <a class="map-link" href="https://maps.google.com/?q=Borghese+Gallery+Rome+Italy" target="_blank" rel="noopener">Borghese Gallery</a></div>
           <div class="tl-note">Bernini: Apollo &amp; Daphne, Proserpina — შეუდარებელი! 15 აპრილს დაჯავშნე!</div>
@@ -1270,14 +1287,14 @@ a.map-link:hover, a.map-link:active {
         <div class="tl-price free-price">ᲣᲤᲐᲡᲝ</div>
       </div>
       <div class="tl-row">
-        <div class="tl-time">15:00–15:30</div>
+        <div class="tl-time">16:00–16:30</div>
         <div class="tl-body">
           <div class="tl-place">🌿 <a class="map-link" href="https://maps.google.com/?q=Villa+Borghese+Rome+Italy" target="_blank" rel="noopener">ვილა ბორგეზეს პარკი</a> — ბავშვები გაშვება</div>
         </div>
         <div class="tl-price free-price">უფასო</div>
       </div>
       <div class="tl-row highlight">
-        <div class="tl-time">15:30–17:30</div>
+        <div class="tl-time">16:30–18:00</div>
         <div class="tl-body">
           <div class="tl-place"><span class="star-icon">★</span> <a class="map-link" href="https://maps.google.com/?q=Castel+Sant%27Angelo+Rome+Italy" target="_blank" rel="noopener">Castel Sant'Angelo</a> <span class="badge badge-free" style="margin-left:4px;">ᲑᲝᲜᲣᲡ</span></div>
           <div class="tl-note">ტაქსი Borghese → Castel (~€18) · შიდა ნაწილი, ჯავშანი, პანორამული ტერასა</div>
@@ -1285,7 +1302,7 @@ a.map-link:hover, a.map-link:active {
         <div class="tl-price free-price">ᲣᲤᲐᲡᲝ</div>
       </div>
       <div class="tl-row">
-        <div class="tl-time">17:30–19:00</div>
+        <div class="tl-time">18:00–19:30</div>
         <div class="tl-body">
           <div class="tl-place">🧳 <a class="map-link" href="https://maps.google.com/?q=Via+di+Sant%27Agata+de%27+Goti+29+Rome+Italy" target="_blank" rel="noopener">სახლი</a> · პაკინგი</div>
         </div>
@@ -1399,7 +1416,7 @@ a.map-link:hover, a.map-link:active {
         </div>
         <span style="font-size:12px;color:var(--c-fg-muted);font-weight:600;">€12–20</span>
       </div>
-      <div class="rest-note">1921-დან · ხელით კეთილი პასტა შენს თვალწინ! · Campo de' Fiori · carbonara, tiramisu</div>
+      <div class="rest-note">1921-დან · ხელით გაკეთებული პასტა შენს თვალწინ! · Campo de' Fiori · carbonara, tiramisu</div>
     </div>
 
     <div class="rest-item">
@@ -1835,7 +1852,7 @@ a.map-link:hover, a.map-link:active {
         </div>
         <span style="font-size:12px;color:var(--c-fg-muted);font-weight:600;">€12–20</span>
       </div>
-      <div class="rest-note">1921-დან · ხელით კეთილი პასტა შენს თვალწინ! · Campo de' Fiori · carbonara, tiramisu</div>
+      <div class="rest-note">1921-დან · ხელით გაკეთებული პასტა შენს თვალწინ! · Campo de' Fiori · carbonara, tiramisu</div>
     </div>
     <div class="rest-item">
       <div class="rest-top">
@@ -1861,11 +1878,11 @@ a.map-link:hover, a.map-link:active {
       <div class="rest-top">
         <div>
           <div class="rest-name"><a class="map-link" href="https://maps.google.com/?q=Gelateria+del+Teatro+Via+dei+Coronari+65+Rome" target="_blank" rel="noopener">Gelateria del Teatro</a> (გელატო)</div>
-          <div class="rest-addr"><a class="map-link" href="https://maps.google.com/?q=Via+dei+Coronari+65+Rome+Italy" target="_blank" rel="noopener">Via dei Coronari 65</a> · Navona-სთან</div>
+          <div class="rest-addr"><a class="map-link" href="https://maps.google.com/?q=Via+dei+Coronari+65+Rome+Italy" target="_blank" rel="noopener">Via dei Coronari 65</a> · <strong>4.6</strong>/5 · 3,808 რივიუ · Navona-სთან</div>
         </div>
         <span style="font-size:12px;color:var(--c-green);font-weight:700;">€2.50–4</span>
       </div>
-      <div class="rest-note">ხელნაკეთი გელატო · ნატურალური · Navona-ს სეირნობისას!</div>
+      <div class="rest-note">ხელნაკეთი გელატო · ნატურალური · 23 აპრ. Navona-ს სეირნობისას!</div>
     </div>
   </div>
 
@@ -2132,23 +2149,23 @@ a.map-link:hover, a.map-link:active {
     <div class="card-title">🎫 საიტები</div>
     <div class="site-row">
       <span class="site-name">ვატიკანის მუზ.</span>
-      <span class="site-url">tickets.museivaticani.va</span>
+      <a class="site-url" href="https://tickets.museivaticani.va" target="_blank" rel="noopener">tickets.museivaticani.va</a>
     </div>
     <div class="site-row">
       <span class="site-name">კოლიზეუმი</span>
-      <span class="site-url">ticketing.colosseo.it</span>
+      <a class="site-url" href="https://ticketing.colosseo.it" target="_blank" rel="noopener">ticketing.colosseo.it</a>
     </div>
     <div class="site-row">
       <span class="site-name">Borghese</span>
-      <span class="site-url">galleriaborghese.beniculturali.it</span>
+      <a class="site-url" href="https://galleriaborghese.beniculturali.it" target="_blank" rel="noopener">galleriaborghese.beniculturali.it</a>
     </div>
     <div class="site-row">
       <span class="site-name">Castel</span>
-      <span class="site-url">coopculture.it</span>
+      <a class="site-url" href="https://www.coopculture.it" target="_blank" rel="noopener">coopculture.it</a>
     </div>
     <div class="site-row">
       <span class="site-name">პანთეონი</span>
-      <span class="site-url">pantheonroma.com</span>
+      <a class="site-url" href="https://www.pantheonroma.com" target="_blank" rel="noopener">pantheonroma.com</a>
     </div>
   </div>
 
