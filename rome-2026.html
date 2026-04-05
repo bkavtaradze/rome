@@ -2418,7 +2418,53 @@ const DISTANCES = {
   'Castel Sant\'Angelo': '2.6კმ · 35წთ 🦶',
 };
 
+// Restaurant-specific distances
+const REST_DISTANCES = {
+  'Tonnarello': '2.4კმ · 34წთ 🦶',
+  'La Nuova Piazzetta': '300მ · 4წთ 🦶',
+  'Nannarella': '2.4კმ · 33წთ 🦶',
+  'Osteria da Fortunata': '1.8კმ · 25წთ 🦶',
+  'Giolitti': '1.6კმ · 21წთ 🦶',
+  'Pizza Forum': '900მ · 13წთ 🦶',
+  'Ristoro Della Salute': '900მ · 12წთ 🦶',
+  'Venchi': '1.4კმ · 19წთ 🦶',
+  'Tonnarello Scala': '2.4კმ · 34წთ 🦶',
+  'Trattoria Luzzi': '800მ · 12წთ 🦶',
+  'RoYaL Art': '800მ · 12წთ 🦶',
+  'Cantina e Cucina': '1.9კმ · 26წთ 🦶',
+  'Achille Al Pantheon': '1.5კმ · 20წთ 🦶',
+  'Mercato Centrale': '1კმ · 🦶 12წთ',
+  'Otello': '2.5კმ · 35წთ 🦶',
+  'Pizzarium Bonci': '4.6კმ · 🚇+🦶',
+  'Antico Forno Roscioli': '1.5კმ · 20წთ 🦶',
+  'Dar Poeta': '2.6კმ · 36წთ 🦶',
+  'Da Enzo': '2.4კმ · 34წთ 🦶',
+  'Mordi': '3.1კმ · 🚌 20წთ',
+  'Ce Stamo': '200მ · 3წთ 🦶',
+  'Ai Tre Scalini': '500მ · 7წთ 🦶',
+  'La Taverna dei Monti': '300მ · 5წთ 🦶',
+  'La Taverna dei Fori': '200მ · 3წთ 🦶',
+  'Pizzeria della Madonna': '200მ · 3წთ 🦶',
+  'Alle Carrette': '250მ · 4წთ 🦶',
+  'Antico Forno ai Monti': '300მ · 4წთ 🦶',
+  'Fatamorgana': '350მ · 5წთ 🦶',
+  'La Pratolina': '4კმ · 🚇+🦶',
+  'Hostaria Dino': '3.8კმ · 🚇+🦶',
+  'Romané': '3.9კმ · 🚇+🦶',
+  'Da Enzo al 29': '2.4კმ · 34წთ 🦶',
+  'Ivo a Trastevere': '2.5კმ · 35წთ 🦶',
+  'Pizzeria da Remo': '3.2კმ · 🚌 22წთ',
+  'Flavio al Velavevodetto': '3.1კმ · 🚌 20წთ',
+  'Da Oio': '3.1კმ · 🚌 20წთ',
+  'Mercato di Testaccio': '3.1კმ · 🚌 20წთ',
+  'Armando al Pantheon': '1.5კმ · 20წთ 🦶',
+  'Gelateria del Teatro': '2კმ · 27წთ 🦶',
+  'Hosteria da Giggetto': '0.8კმ · 11წთ 🦶',
+  'Come il Latte': '1.1კმ · 14წთ 🦶',
+};
+
 function addDistanceTags() {
+  // Timeline locations
   document.querySelectorAll('.tl-place').forEach(place => {
     const text = place.textContent;
     for (const [name, dist] of Object.entries(DISTANCES)) {
@@ -2427,6 +2473,19 @@ function addDistanceTags() {
         tag.className = 'dist-tag';
         tag.textContent = ' · ' + dist;
         place.appendChild(tag);
+        break;
+      }
+    }
+  });
+  // Food section restaurant names
+  document.querySelectorAll('#food .rest-name').forEach(nameEl => {
+    const text = nameEl.textContent;
+    for (const [name, dist] of Object.entries(REST_DISTANCES)) {
+      if (dist && text.includes(name)) {
+        const tag = document.createElement('span');
+        tag.className = 'dist-tag';
+        tag.textContent = ' · ' + dist;
+        nameEl.appendChild(tag);
         break;
       }
     }
