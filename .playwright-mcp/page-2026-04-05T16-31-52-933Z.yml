@@ -1,0 +1,750 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]: 🏛️ Roma 2026
+      - generic [ref=e5]: Via di Sant'Agata de' Goti 29 · Rione Monti
+      - generic [ref=e6]: 2 მოზ. + 2 ბავ. · 22–26 აპრილი
+    - generic "მოგზაურობის თარიღები" [ref=e7]:
+      - text: "22"
+      - text: ———
+      - text: "26"
+      - text: აპრ.
+  - navigation "გვერდების ნავიგაცია" [ref=e8]:
+    - navigation [ref=e9]:
+      - button "გადაუდებელი საქმეები" [ref=e10] [cursor=pointer]: გადაუდ.
+      - button "22 აპრ." [ref=e12] [cursor=pointer]
+      - button "23 აპრ." [ref=e13] [cursor=pointer]
+      - button "24 აპრ." [ref=e14] [cursor=pointer]
+      - button "25 აპრ." [ref=e15] [cursor=pointer]
+      - button "✈️ 26" [ref=e16] [cursor=pointer]
+      - button "🍝 კვება" [active] [ref=e17] [cursor=pointer]
+      - button "ℹ️ ინფო" [ref=e18] [cursor=pointer]
+  - main [ref=e19]:
+    - region "კვება — რესტავრანები" [ref=e209]:
+      - paragraph [ref=e210]: ტოპ რესტორნები — აუცილებლად სანახავი
+      - generic [ref=e211]:
+        - generic [ref=e212]: 🏆 ტოპ რესტორნები (Google Places API · 15K+ რივიუ)
+        - generic [ref=e213]: "რეიტინგი: Google Maps · რივიუების რაოდენობით დალაგებული · 💚 = ბიუჯეტური · 🟡 = საშუალო"
+        - generic [ref=e214]:
+          - generic [ref=e215]:
+            - generic [ref=e216]:
+              - generic [ref=e217]:
+                - text: 1. 💚
+                - link "Tonnarello" [ref=e218] [cursor=pointer]:
+                  - /url: https://maps.google.com/?q=Tonnarello+Via+della+Paglia+1+Trastevere+Rome
+                - generic [ref=e219]: TOP
+              - generic [ref=e220]:
+                - text: Trastevere, V. della Paglia 1/2/3 ·
+                - strong [ref=e221]: 4.7/5
+                - text: · 103,036 რივიუ
+            - generic [ref=e222]: €10–18
+          - generic [ref=e223]: რომის ყველაზე მეტრივიუიანი! · carbonara, cacio e pepe, amatriciana · რიგი 5–10 წთ · ლოკალებიც დადიან
+        - generic [ref=e224]:
+          - generic [ref=e225]:
+            - generic [ref=e226]:
+              - generic [ref=e227]:
+                - text: 2. 💚
+                - link "La Nuova Piazzetta" [ref=e228] [cursor=pointer]:
+                  - /url: https://maps.google.com/?q=La+Nuova+Piazzetta+Vicolo+del+Buon+Consiglio+23+Rome
+                - generic [ref=e229]: TOP
+              - generic [ref=e230]:
+                - text: Monti, Vicolo del Buon Consiglio 23/a ·
+                - strong [ref=e231]: 4.8/5
+                - text: · 48,162 რივიუ
+            - generic [ref=e232]: €10–15
+          - generic [ref=e233]: "Monti-ს #1 · სახლის გვერდით! · რომაული კლასიკა · ყველაზე მაღალი რეიტინგი 48K-ში!"
+        - generic [ref=e234]:
+          - generic [ref=e235]:
+            - generic [ref=e236]:
+              - generic [ref=e237]:
+                - text: 3. 💚
+                - link "Nannarella" [ref=e238] [cursor=pointer]:
+                  - /url: https://maps.google.com/?q=Nannarella+Piazza+di+San+Calisto+7+Trastevere+Rome
+                - generic [ref=e239]: TOP
+              - generic [ref=e240]:
+                - text: Trastevere, Piazza di S. Calisto 7/a ·
+                - strong [ref=e241]: 4.7/5
+                - text: · 42,697 რივიუ
+            - generic [ref=e242]: €10–18
+          - generic [ref=e243]: carbonara, oxtail, tiramisu · რეზერვაცია არ მიიღება — ადრე მისვლა!
+        - generic [ref=e244]:
+          - generic [ref=e245]:
+            - generic [ref=e246]:
+              - generic [ref=e247]:
+                - text: 4. 🟡
+                - link "Osteria da Fortunata" [ref=e248] [cursor=pointer]:
+                  - /url: https://maps.google.com/?q=Osteria+da+Fortunata+Via+del+Pellegrino+11+Rome
+                - generic [ref=e249]: TOP
+              - generic [ref=e250]:
+                - text: Centro, Via del Pellegrino 11/12 ·
+                - strong [ref=e251]: 4.4/5
+                - text: · 30,256 რივიუ
+            - generic [ref=e252]: €12–20
+          - generic [ref=e253]: 1921-დან · ხელით გაკეთებული პასტა შენს თვალწინ! · Campo de' Fiori · carbonara, tiramisu
+        - generic [ref=e254]:
+          - generic [ref=e255]:
+            - generic [ref=e256]:
+              - generic [ref=e257]:
+                - text: 5. 💚
+                - link "Giolitti" [ref=e258] [cursor=pointer]:
+                  - /url: https://maps.google.com/?q=Giolitti+Via+degli+Uffici+del+Vicario+40+Rome
+                - text: (გელატო)
+                - generic [ref=e259]: TOP
+              - generic [ref=e260]:
+                - text: Centro, Via degli Uffici del Vicario 40 ·
+                - strong [ref=e261]: 4.4/5
+                - text: · 27,619 რივიუ
+            - generic [ref=e262]: €3–5
+          - generic [ref=e263]: 1900-დან · რომის ისტორიული გელატერია · პანთეონის გვერდით!
+        - generic [ref=e264]:
+          - generic [ref=e265]:
+            - generic [ref=e266]:
+              - generic [ref=e267]:
+                - text: 6. 💚
+                - link "Ristorante Pizza Forum" [ref=e268] [cursor=pointer]:
+                  - /url: https://maps.google.com/?q=Ristorante+Pizza+Forum+Via+di+San+Giovanni+in+Laterano+34+Rome
+              - generic [ref=e269]:
+                - text: Monti, Via di S. Giovanni in Laterano 34-38 ·
+                - strong [ref=e270]: 4.7/5
+                - text: · 24,984 რივიუ
+            - generic [ref=e271]: €8–14
+          - generic [ref=e272]: სახლიდან 5 წთ! · ნეაპოლიტანური პიცა ხის ღუმელში · Verace Pizza Napoletana სერთიფიკატი
+        - generic [ref=e273]:
+          - generic [ref=e274]:
+            - generic [ref=e275]:
+              - generic [ref=e276]:
+                - text: 7. 💚
+                - link "Ristoro Della Salute" [ref=e277] [cursor=pointer]:
+                  - /url: https://maps.google.com/?q=Ristoro+Della+Salute+Piazza+del+Colosseo+2A+Rome
+              - generic [ref=e278]:
+                - text: კოლიზეუმთან, P.za del Colosseo 2A ·
+                - strong [ref=e279]: 4.8/5
+                - text: · 24,802 რივიუ
+            - generic [ref=e280]: €10–18
+          - generic [ref=e281]: კოლიზეუმის პირდაპირ! · carbonara, cacio e pepe · ტურისტულ ზონაში კარგი ფასი
+        - generic [ref=e282]:
+          - generic [ref=e283]:
+            - generic [ref=e284]:
+              - generic [ref=e285]:
+                - text: 8. 💚
+                - link "Venchi" [ref=e286] [cursor=pointer]:
+                  - /url: https://maps.google.com/?q=Venchi+Cioccolato+e+Gelato+Via+del+Corso+335+Rome
+                - text: (გელატო + შოკოლადი)
+              - generic [ref=e287]:
+                - text: Centro, Via del Corso 335 ·
+                - strong [ref=e288]: 4.7/5
+                - text: · 18,999 რივიუ
+            - generic [ref=e289]: €3–6
+          - generic [ref=e290]: იტალიის პრემიუმ შოკოლადი + გელატო · ტრევისკენ მიმავალ გზაზე
+        - generic [ref=e291]:
+          - generic [ref=e292]:
+            - generic [ref=e293]:
+              - generic [ref=e294]:
+                - text: 9. 💚
+                - link "Tonnarello Scala" [ref=e295] [cursor=pointer]:
+                  - /url: https://maps.google.com/?q=Tonnarello+Scala+Piazza+della+Scala+19+Trastevere+Rome
+              - generic [ref=e296]:
+                - text: Trastevere, Piazza della Scala 19/21 ·
+                - strong [ref=e297]: 4.8/5
+                - text: · 18,849 რივიუ
+            - generic [ref=e298]: €10–18
+          - generic [ref=e299]: Tonnarello-ს მე-2 ლოკაცია · იგივე ხარისხი · შეიძლება ნაკლები რიგი იყოს!
+        - generic [ref=e300]:
+          - generic [ref=e301]:
+            - generic [ref=e302]:
+              - generic [ref=e303]:
+                - text: 10. 💚
+                - link "Trattoria Luzzi" [ref=e304] [cursor=pointer]:
+                  - /url: https://maps.google.com/?q=Trattoria+Luzzi+Via+Celimontana+1+Rome
+              - generic [ref=e305]:
+                - text: კოლიზეუმთან, Via Celimontana 1 ·
+                - strong [ref=e306]: 4.1/5
+                - text: · 17,797 რივიუ
+            - generic [ref=e307]: €7–12
+          - generic [ref=e308]: Google INEXPENSIVE · კოლიზეუმთან ყველაზე იაფი · უზარმაზარი პორციები · ლოკალური ატმოსფერო
+        - generic [ref=e309]:
+          - generic [ref=e310]:
+            - generic [ref=e311]:
+              - generic [ref=e312]:
+                - text: 11. 💚
+                - link "RoYaL Art Cafè" [ref=e313] [cursor=pointer]:
+                  - /url: https://maps.google.com/?q=RoYaL+Art+Cafe+Piazza+del+Colosseo+1+Rome
+              - generic [ref=e314]:
+                - text: კოლიზეუმთან, P.za del Colosseo 1 ·
+                - strong [ref=e315]: 4.7/5
+                - text: · 17,602 რივიუ
+            - generic [ref=e316]: €10–15
+          - generic [ref=e317]: კოლიზეუმის ხედით · საუზმე, ლანჩი, აპერიტივო · 25 აპრ. დილით კარგია!
+        - generic [ref=e318]:
+          - generic [ref=e319]:
+            - generic [ref=e320]:
+              - generic [ref=e321]:
+                - text: 12. 🟡
+                - link "Cantina e Cucina" [ref=e322] [cursor=pointer]:
+                  - /url: https://maps.google.com/?q=Cantina+e+Cucina+Via+del+Governo+Vecchio+87+Rome
+              - generic [ref=e323]:
+                - text: Centro, V. del Governo Vecchio 87 ·
+                - strong [ref=e324]: 4.6/5
+                - text: · 17,052 რივიუ
+            - generic [ref=e325]: €12–18
+          - generic [ref=e326]: Navona-სთან · carbonara, lasagna · პოპულარული ტურისტებშიც და ლოკალებშიც · შეფასებები ცვალებადია
+        - generic [ref=e327]:
+          - generic [ref=e328]:
+            - generic [ref=e329]:
+              - generic [ref=e330]:
+                - text: 13. 💚
+                - link "Achille Al Pantheon" [ref=e331] [cursor=pointer]:
+                  - /url: https://maps.google.com/?q=Achille+Al+Pantheon+Via+dei+Pastini+120+Rome
+              - generic [ref=e332]:
+                - text: Centro, Via dei Pastini 120 ·
+                - strong [ref=e333]: 4.7/5
+                - text: · 15,919 რივიუ
+            - generic [ref=e334]: €8–14
+          - generic [ref=e335]: პანთეონიდან 1 წუთი! · Google INEXPENSIVE · რომაული კლასიკა კარგ ფასად
+        - generic [ref=e336]:
+          - generic [ref=e337]:
+            - generic [ref=e338]:
+              - generic [ref=e339]:
+                - text: 14. 🟡
+                - link "Mercato Centrale Roma" [ref=e340] [cursor=pointer]:
+                  - /url: https://maps.google.com/?q=Mercato+Centrale+Roma+Via+Giovanni+Giolitti+36+Rome
+              - generic [ref=e341]:
+                - text: Termini, Via Giovanni Giolitti 36 ·
+                - strong [ref=e342]: 4.4/5
+                - text: · 15,958 რივიუ
+            - generic [ref=e343]: €8–18
+          - generic [ref=e344]: Termini სადგურთან · ფუდ-ჰოლი · სხვადასხვა სტენდი — პიცა, პასტა, ხორცი · პირველ/ბოლო დღეს!
+        - generic [ref=e345]:
+          - generic [ref=e346]:
+            - generic [ref=e347]:
+              - generic [ref=e348]:
+                - text: 15. 💚
+                - link "Otello" [ref=e349] [cursor=pointer]:
+                  - /url: https://maps.google.com/?q=Otello+Via+della+Pelliccia+47+Trastevere+Rome
+              - generic [ref=e350]:
+                - text: Trastevere, Via della Pelliccia 47/53 ·
+                - strong [ref=e351]: 4.7/5
+                - text: · 17,651 რივიუ
+            - generic [ref=e352]: €10–18
+          - generic [ref=e353]: Trastevere-ს ფარული ლალი · carbonara, amatriciana · Tonnarello/Nannarella-ს ალტერნატივა
+      - paragraph [ref=e354]: სტატიებისა და ფორუმების Must — ლეგენდარული
+      - generic [ref=e355]:
+        - generic [ref=e356]: 📰 ფუდ-გაიდებისა და ფორუმების ტოპი
+        - generic [ref=e357]: ყველა მთავარ წყაროში (The Infatuation, Eating Europe, Devour Tours, Mama Loves Rome) დადასტურებული
+        - generic [ref=e358]:
+          - generic [ref=e359]:
+            - generic [ref=e360]:
+              - generic [ref=e361]:
+                - text: 💚
+                - link "Pizzarium Bonci" [ref=e362] [cursor=pointer]:
+                  - /url: https://maps.google.com/?q=Pizzarium+Bonci+Via+della+Meloria+43+Rome
+                - generic [ref=e363]: Must!
+              - generic [ref=e364]:
+                - text: ვატიკანთან, Via della Meloria 43 ·
+                - strong [ref=e365]: 4.1/5
+                - text: · 13,874 რივიუ
+            - generic [ref=e366]: €5–8
+          - generic [ref=e367]: "რომის #1 pizza al taglio · „პიცის მიქელანჯელო\" · ყველა ფუდ-გაიდში #1"
+        - generic [ref=e368]:
+          - generic [ref=e369]:
+            - generic [ref=e370]:
+              - generic [ref=e371]:
+                - text: 💚
+                - link "Antico Forno Roscioli" [ref=e372] [cursor=pointer]:
+                  - /url: https://maps.google.com/?q=Antico+Forno+Roscioli+Via+dei+Chiavari+34+Rome
+                - generic [ref=e373]: Must!
+              - generic [ref=e374]:
+                - text: Centro, Via dei Chiavari 34 ·
+                - strong [ref=e375]: 4.5/5
+                - text: · 7,430 რივიუ
+            - generic [ref=e376]: €3–7
+          - generic [ref=e377]: 1972-დან · pizza rossa, porchetta სენდვიჩი, supplì · ლეგენდარული საცხობი
+        - generic [ref=e378]:
+          - generic [ref=e379]:
+            - generic [ref=e380]:
+              - generic [ref=e381]:
+                - text: 💚
+                - link "Dar Poeta" [ref=e382] [cursor=pointer]:
+                  - /url: https://maps.google.com/?q=Dar+Poeta+Vicolo+del+Bologna+45+Trastevere+Rome
+                - generic [ref=e383]: Must!
+              - generic [ref=e384]:
+                - text: Trastevere, Vicolo del Bologna 45 ·
+                - strong [ref=e385]: 4.3/5
+                - text: · 9,483 რივიუ
+            - generic [ref=e386]: €6–10
+          - generic [ref=e387]: ხის ღუმელის პიცა · TripAdvisor Travellers' Choice · 7,060 TripAdvisor რივიუ
+        - generic [ref=e388]:
+          - generic [ref=e389]:
+            - generic [ref=e390]:
+              - generic [ref=e391]:
+                - text: 🟡
+                - link "Da Enzo al 29" [ref=e392] [cursor=pointer]:
+                  - /url: https://maps.google.com/?q=Da+Enzo+al+29+Via+dei+Vascellari+29+Trastevere+Rome
+                - generic [ref=e393]: Must!
+              - generic [ref=e394]:
+                - text: Trastevere, Via dei Vascellari 29 ·
+                - strong [ref=e395]: 4.3/5
+                - text: · 9,620 რივიუ
+            - generic [ref=e396]: €12–20
+          - generic [ref=e397]:
+            - text: ავთენტიკური რომაული · carbonara, cacio e pepe ·
+            - strong [ref=e398]: წინასწარ დაჯავშნე!
+        - generic [ref=e399]:
+          - generic [ref=e400]:
+            - generic [ref=e401]:
+              - generic [ref=e402]:
+                - text: 💚
+                - link "Mordi & Vai" [ref=e403] [cursor=pointer]:
+                  - /url: https://maps.google.com/?q=Mordi+e+Vai+Mercato+Testaccio+Rome
+                - generic [ref=e404]: Must!
+              - generic [ref=e405]:
+                - text: Testaccio ბაზარი, BOX 15 ·
+                - strong [ref=e406]: 4.8/5
+                - text: · 1,076 რივიუ
+            - generic [ref=e407]: €4–7
+          - generic [ref=e408]: "ყველა Testaccio გაიდში #1 · რომაული სენდვიჩები · Devour Tours, Eating Europe"
+      - paragraph [ref=e409]: Rione Monti (სახლი)
+      - generic [ref=e410]:
+        - generic [ref=e411]: 🏠 Monti — სახლის უბანი
+        - generic [ref=e412]:
+          - generic [ref=e413]:
+            - generic [ref=e414]:
+              - generic [ref=e415]:
+                - text: ⭐
+                - link "Ristoro Della Salute" [ref=e416] [cursor=pointer]:
+                  - /url: https://maps.google.com/?q=Ristoro+Della+Salute+Piazza+del+Colosseo+2A+Rome
+              - generic [ref=e417]:
+                - text: P.za del Colosseo 2A ·
+                - strong [ref=e418]: "4.8"
+                - text: /5 · 24,802 რივიუ
+            - generic [ref=e419]: €10–18
+          - generic [ref=e420]: კოლიზეუმის პირდაპირ! · cacio e pepe, carbonara · 25 აპრ. კოლიზეუმის შემდეგ!
+        - generic [ref=e421]:
+          - generic [ref=e422]:
+            - generic [ref=e423]:
+              - generic [ref=e424]:
+                - text: ⭐
+                - link "La Nuova Piazzetta" [ref=e425] [cursor=pointer]:
+                  - /url: https://maps.google.com/?q=La+Nuova+Piazzetta+Vicolo+del+Buon+Consiglio+23+Rome
+              - generic [ref=e426]:
+                - text: Vicolo del Buon Consiglio 23/a ·
+                - strong [ref=e427]: "4.8"
+                - text: /5 · 48,162 რივიუ
+            - generic [ref=e428]: €10–15
+          - generic [ref=e429]: "Monti-ს #1 · სახლის გვერდით · რომაული კლასიკა · რომის ყველაზე მეტი რივიუ!"
+        - generic [ref=e430]:
+          - generic [ref=e431]:
+            - generic [ref=e432]:
+              - generic [ref=e433]:
+                - text: ⭐
+                - link "Ce Stamo A Pensà" [ref=e434] [cursor=pointer]:
+                  - /url: https://maps.google.com/?q=Ce+Stamo+A+Pensa+Via+Leonina+81+Rome
+              - generic [ref=e435]:
+                - text: Via Leonina 81 ·
+                - strong [ref=e436]: "4.7"
+                - text: /5 · 5,926 რივიუ
+            - generic [ref=e437]: €5–10
+          - generic [ref=e438]: სახლის გვერდით · იაფი + მაღალი ხარისხი · Google INEXPENSIVE
+        - generic [ref=e439]:
+          - generic [ref=e440]:
+            - generic [ref=e441]:
+              - generic [ref=e442]:
+                - text: ⭐
+                - link "Ai Tre Scalini" [ref=e443] [cursor=pointer]:
+                  - /url: https://maps.google.com/?q=Ai+Tre+Scalini+Via+Panisperna+251+Rome
+              - generic [ref=e444]:
+                - text: Via Panisperna 251 ·
+                - strong [ref=e445]: "4.5"
+                - text: /5 · 4,882 რივიუ
+            - generic [ref=e446]: €12–18
+          - generic [ref=e447]: polpette al sugo, cacio e pepe · 1895-დან · რეზერვაცია არ არის!
+        - generic [ref=e448]:
+          - generic [ref=e449]:
+            - generic [ref=e450]:
+              - link "La Taverna dei Monti" [ref=e452] [cursor=pointer]:
+                - /url: https://maps.google.com/?q=La+Taverna+dei+Monti+Via+del+Boschetto+41+Rome
+              - generic [ref=e453]:
+                - text: Via del Boschetto 41 ·
+                - strong [ref=e454]: "4.5"
+                - text: /5 · 3,493 რივიუ
+            - generic [ref=e455]: €12–18
+          - generic [ref=e456]: ტრადიციული ტრატორია · carbonara, lamb · კარგი ფასი
+        - generic [ref=e457]:
+          - generic [ref=e458]:
+            - generic [ref=e459]:
+              - link "La Taverna dei Fori Imperiali" [ref=e461] [cursor=pointer]:
+                - /url: https://maps.google.com/?q=La+Taverna+dei+Fori+Imperiali+Via+della+Madonna+dei+Monti+9+Rome
+              - generic [ref=e462]:
+                - text: Via della Madonna dei Monti 9 ·
+                - strong [ref=e463]: "4.4"
+                - text: /5 · 2,765 რივიუ
+            - generic [ref=e464]: €12–20
+          - generic [ref=e465]: cacio e pepe, carciofi alla giudia, abbacchio · რეზერვაცია!
+        - generic [ref=e466]:
+          - generic [ref=e467]:
+            - generic [ref=e468]:
+              - link "Pizzeria della Madonna dei Monti" [ref=e470] [cursor=pointer]:
+                - /url: https://maps.google.com/?q=Pizzeria+della+Madonna+dei+Monti+Via+della+Madonna+dei+Monti+110+Rome
+              - generic [ref=e471]:
+                - text: Via della Madonna dei Monti 110 ·
+                - strong [ref=e472]: "4.7"
+                - text: /5 · 4,537 რივიუ
+            - generic [ref=e473]: €3–6
+          - generic [ref=e474]: pizza al taglio + supplì · წონაზე · სწრაფი და ძალიან იაფი!
+        - generic [ref=e475]:
+          - generic [ref=e476]:
+            - generic [ref=e477]:
+              - link "Alle Carrette" [ref=e479] [cursor=pointer]:
+                - /url: https://maps.google.com/?q=Alle+Carrette+Via+della+Madonna+dei+Monti+95+Rome
+              - generic [ref=e480]:
+                - text: Via della Madonna dei Monti 95 ·
+                - strong [ref=e481]: "4.4"
+                - text: /5 · 4,080 რივიუ
+            - generic [ref=e482]: €7–12
+          - generic [ref=e483]: პიცა · სახლის გვერდით · 22 აპრილი სადილი · Google INEXPENSIVE
+        - generic [ref=e484]:
+          - link "Antico Forno ai Monti" [ref=e486] [cursor=pointer]:
+            - /url: https://maps.google.com/?q=Antico+Forno+ai+Monti+Rome+Italy
+          - generic [ref=e487]: პური, პიცა · სწრაფი ლანჩი · €3–5
+        - generic [ref=e488]:
+          - generic [ref=e489]:
+            - generic [ref=e490]:
+              - generic [ref=e491]:
+                - link "Fatamorgana Monti" [ref=e492] [cursor=pointer]:
+                  - /url: https://maps.google.com/?q=Fatamorgana+Monti+Piazza+degli+Zingari+5+Rome
+                - text: (გელატო)
+              - generic [ref=e493]:
+                - text: Piazza degli Zingari 5 ·
+                - strong [ref=e494]: "4.4"
+                - text: /5 · 1,808 რივიუ
+            - generic [ref=e495]: €2.50–4
+          - generic [ref=e496]: რომის საუკეთესო გელატო · 100% ნატურალური · გლუტენ-ფრი
+      - paragraph [ref=e497]: ვატიკანის მიდამო / Prati (24 აპრილი სადილი)
+      - generic [ref=e498]:
+        - generic [ref=e499]: ✝️ ვატიკანის მიდამო
+        - generic [ref=e500]:
+          - generic [ref=e501]:
+            - generic [ref=e502]:
+              - generic [ref=e503]:
+                - text: ⭐
+                - link "Pizzarium Bonci" [ref=e504] [cursor=pointer]:
+                  - /url: https://maps.google.com/?q=Pizzarium+Bonci+Via+della+Meloria+43+Rome
+              - generic [ref=e505]:
+                - link "Via della Meloria 43" [ref=e506] [cursor=pointer]:
+                  - /url: https://maps.google.com/?q=Via+della+Meloria+43+Rome+Italy
+                - text: ·
+                - strong [ref=e507]: "4.1"
+                - text: /5 · 13,874 რივიუ
+            - generic [ref=e508]: Must!
+          - generic [ref=e509]:
+            - text: "რომის #1 pizza al taglio · „პიცის მიქელანჯელო\" · €5–8 ·"
+            - strong [ref=e510]: არ გამოტოვო!
+        - generic [ref=e511]:
+          - generic [ref=e512]:
+            - generic [ref=e513]:
+              - generic [ref=e514]:
+                - text: ⭐
+                - link "La Pratolina" [ref=e515] [cursor=pointer]:
+                  - /url: https://maps.google.com/?q=La+Pratolina+Via+degli+Scipioni+248+Rome
+              - generic [ref=e516]:
+                - link "Via degli Scipioni 248" [ref=e517] [cursor=pointer]:
+                  - /url: https://maps.google.com/?q=Via+degli+Scipioni+248+Rome+Italy
+                - text: ·
+                - strong [ref=e518]: "4.5"
+                - text: /5 · 967 რივიუ
+            - generic [ref=e519]: €9–11
+          - generic [ref=e520]:
+            - text: pinsa romana · 60სთ ფერმენტაცია · ტოპ-3 პიცერია რომში ·
+            - strong [ref=e521]: კვირას დახურულია!
+        - generic [ref=e522]:
+          - generic [ref=e523]:
+            - generic [ref=e524]:
+              - generic [ref=e525]:
+                - text: ⭐
+                - link "Hostaria Dino e Toni" [ref=e526] [cursor=pointer]:
+                  - /url: https://maps.google.com/?q=Hostaria+Dino+e+Tony+Via+Leone+IV+60+Rome
+              - generic [ref=e527]:
+                - link "Via Leone IV 60" [ref=e528] [cursor=pointer]:
+                  - /url: https://maps.google.com/?q=Via+Leone+IV+60+Rome+Italy
+                - text: ·
+                - strong [ref=e529]: "4.4"
+                - text: /5 · 3,114 რივიუ
+            - generic [ref=e530]: €20 (all-in)
+          - generic [ref=e531]: მენიუ არ არის — 3 კერძი + ღვინო + ლიმონჩელო · მხოლოდ ნაღდი! · კვირას დახურულია
+        - generic [ref=e532]:
+          - link "Romané" [ref=e534] [cursor=pointer]:
+            - /url: https://maps.google.com/?q=Roman%C3%A9+Via+Cipro+106+Rome
+          - link "Via Cipro 106" [ref=e536] [cursor=pointer]:
+            - /url: https://maps.google.com/?q=Via+Cipro+106+Rome+Italy
+          - generic [ref=e537]: carbonara, amatriciana · €10–15
+      - paragraph [ref=e538]: Trastevere
+      - generic [ref=e539]:
+        - generic [ref=e540]: 🌉 Trastevere
+        - generic [ref=e541]:
+          - generic [ref=e542]:
+            - generic [ref=e543]:
+              - generic [ref=e544]:
+                - text: ⭐
+                - link "Tonnarello" [ref=e545] [cursor=pointer]:
+                  - /url: https://maps.google.com/?q=Tonnarello+Via+della+Paglia+1+Trastevere+Rome
+              - generic [ref=e546]:
+                - text: V. della Paglia 1/2/3 ·
+                - strong [ref=e547]: "4.7"
+                - text: /5 · 103,036 რივიუ
+            - generic [ref=e548]: €10–18
+          - generic [ref=e549]: 103K რივიუ! · carbonara, cacio e pepe · რეზერვაცია არ არის — რიგი 5–10 წთ
+        - generic [ref=e550]:
+          - generic [ref=e551]:
+            - generic [ref=e552]:
+              - generic [ref=e553]:
+                - text: ⭐
+                - link "Nannarella" [ref=e554] [cursor=pointer]:
+                  - /url: https://maps.google.com/?q=Nannarella+Piazza+di+San+Calisto+7+Trastevere+Rome
+              - generic [ref=e555]:
+                - text: Piazza di S. Calisto 7/a ·
+                - strong [ref=e556]: "4.7"
+                - text: /5 · 42,697 რივიუ
+            - generic [ref=e557]: TOP!
+          - generic [ref=e558]: carbonara, oxtail, tiramisu · რომში ერთ-ერთი უმაღლესი რეიტინგი · ადრე მისვლა! · €10–18
+        - generic [ref=e559]:
+          - generic [ref=e560]:
+            - generic [ref=e561]:
+              - generic [ref=e562]:
+                - text: ⭐
+                - link "Da Enzo al 29" [ref=e563] [cursor=pointer]:
+                  - /url: https://maps.google.com/?q=Da+Enzo+al+29+Via+dei+Vascellari+29+Trastevere+Rome
+              - generic [ref=e564]:
+                - link "Via dei Vascellari 29" [ref=e565] [cursor=pointer]:
+                  - /url: https://maps.google.com/?q=Via+dei+Vascellari+29+Rome+Italy
+                - text: ·
+                - strong [ref=e566]: "4.3"
+                - text: /5 · 9,620 რივიუ
+            - generic [ref=e567]: დაჯავშნე!
+          - generic [ref=e568]: ავთენტიკური რომაული · carbonara, cacio e pepe, carciofi · €12–20
+        - generic [ref=e569]:
+          - generic [ref=e570]:
+            - generic [ref=e571]:
+              - generic [ref=e572]:
+                - text: ⭐
+                - link "Dar Poeta" [ref=e573] [cursor=pointer]:
+                  - /url: https://maps.google.com/?q=Dar+Poeta+Vicolo+del+Bologna+45+Trastevere+Rome
+              - generic [ref=e574]:
+                - link "Vicolo del Bologna 45" [ref=e575] [cursor=pointer]:
+                  - /url: https://maps.google.com/?q=Vicolo+del+Bologna+45+Rome+Italy
+                - text: ·
+                - strong [ref=e576]: "4.3"
+                - text: /5 · 9,483 რივიუ
+            - generic [ref=e577]: €6–10
+          - generic [ref=e578]: ხის ღუმელის პიცა · Travellers' Choice · რეზერვაცია არ არის — რიგი!
+        - generic [ref=e579]:
+          - link "Ivo a Trastevere" [ref=e581] [cursor=pointer]:
+            - /url: https://maps.google.com/?q=Ivo+a+Trastevere+Via+di+San+Francesco+a+Ripa+158+Rome
+          - link "Via di San Francesco a Ripa 158" [ref=e583] [cursor=pointer]:
+            - /url: https://maps.google.com/?q=Via+di+San+Francesco+a+Ripa+158+Rome+Italy
+          - generic [ref=e584]: პიცა · ოჯახური · €7–12
+      - paragraph [ref=e585]: Testaccio (25 აპრ. სადილი)
+      - generic [ref=e586]:
+        - generic [ref=e587]: 🥩 Testaccio
+        - generic [ref=e588]:
+          - generic [ref=e589]:
+            - generic [ref=e590]:
+              - generic [ref=e591]:
+                - text: ⭐
+                - link "Pizzeria da Remo" [ref=e592] [cursor=pointer]:
+                  - /url: https://maps.google.com/?q=Pizzeria+da+Remo+Piazza+Santa+Maria+Liberatrice+44+Rome
+              - generic [ref=e593]:
+                - link "Piazza S. Maria Liberatrice 44" [ref=e594] [cursor=pointer]:
+                  - /url: https://maps.google.com/?q=Piazza+Santa+Maria+Liberatrice+44+Rome+Italy
+                - text: ·
+                - strong [ref=e595]: "4.4"
+                - text: /5 · 4,568 რივიუ
+            - generic [ref=e596]: €6–10
+          - generic [ref=e597]: Testaccio-ს ლეგენდარული პიცერია · თხელი რომაული პიცა · საღამოს რიგი!
+        - generic [ref=e598]:
+          - generic [ref=e599]:
+            - generic [ref=e600]:
+              - link "Flavio al Velavevodetto" [ref=e602] [cursor=pointer]:
+                - /url: https://maps.google.com/?q=Flavio+al+Velavevodetto+Via+di+Monte+Testaccio+97+Rome
+              - link "Via di Monte Testaccio 97" [ref=e604] [cursor=pointer]:
+                - /url: https://maps.google.com/?q=Via+di+Monte+Testaccio+97+Rome+Italy
+            - generic [ref=e605]: €12–18
+          - generic [ref=e606]: cacio e pepe, carbonara, carciofi · უზარმაზარი პორციები
+        - generic [ref=e607]:
+          - generic [ref=e608]:
+            - generic [ref=e609]:
+              - link "Da Oio a Casa Mia" [ref=e611] [cursor=pointer]:
+                - /url: https://maps.google.com/?q=Trattoria+da+Oio+a+Casa+Mia+Via+Galvani+43+Rome
+              - generic [ref=e612]:
+                - link "Via Galvani 41/43/45" [ref=e613] [cursor=pointer]:
+                  - /url: https://maps.google.com/?q=Via+Galvani+41+Rome+Italy
+                - text: ·
+                - strong [ref=e614]: "4.0"
+                - text: /5 · 2,083 რივიუ
+            - generic [ref=e615]: €8–14
+          - generic [ref=e616]: ლოკალური ტრატორია · carbonara · იაფი და ავთენტიკური
+        - generic [ref=e617]:
+          - generic [ref=e618]:
+            - generic [ref=e619]:
+              - generic [ref=e620]:
+                - link "Mordi e Vai" [ref=e621] [cursor=pointer]:
+                  - /url: https://maps.google.com/?q=Mordi+e+Vai+Testaccio+Market+Rome
+                - text: (ბაზარში)
+              - link "Mercato di Testaccio" [ref=e623] [cursor=pointer]:
+                - /url: https://maps.google.com/?q=Mercato+di+Testaccio+Rome+Italy
+            - generic [ref=e624]: €4–7
+          - generic [ref=e625]: ბაზრის ლეგენდა · რომაული სენდვიჩები · veal carbonara სენდვიჩი!
+        - generic [ref=e626]:
+          - link "Mercato di Testaccio" [ref=e628] [cursor=pointer]:
+            - /url: https://maps.google.com/?q=Mercato+di+Testaccio+Rome+Italy
+          - generic [ref=e629]: ბაზრის სტენდები · ადგილობრივი კერძები · supplì, trapizzino
+      - paragraph [ref=e630]: Centro Storico / Pantheon / Navona
+      - generic [ref=e631]:
+        - generic [ref=e632]: 🏛️ Centro Storico
+        - generic [ref=e633]:
+          - generic [ref=e634]:
+            - generic [ref=e635]:
+              - generic [ref=e636]:
+                - text: ⭐
+                - link "Osteria da Fortunata" [ref=e637] [cursor=pointer]:
+                  - /url: https://maps.google.com/?q=Osteria+da+Fortunata+Via+del+Pellegrino+11+Rome
+              - generic [ref=e638]:
+                - text: Via del Pellegrino 11/12 ·
+                - strong [ref=e639]: "4.4"
+                - text: /5 · 30,256 რივიუ
+            - generic [ref=e640]: €12–20
+          - generic [ref=e641]: 1921-დან · ხელით გაკეთებული პასტა შენს თვალწინ! · Campo de' Fiori · carbonara, tiramisu
+        - generic [ref=e642]:
+          - generic [ref=e643]:
+            - generic [ref=e644]:
+              - generic [ref=e645]:
+                - text: ⭐
+                - link "Antico Forno Roscioli" [ref=e646] [cursor=pointer]:
+                  - /url: https://maps.google.com/?q=Antico+Forno+Roscioli+Via+dei+Chiavari+34+Rome
+              - generic [ref=e647]:
+                - link "Via dei Chiavari 34" [ref=e648] [cursor=pointer]:
+                  - /url: https://maps.google.com/?q=Via+dei+Chiavari+34+Rome+Italy
+                - text: ·
+                - strong [ref=e649]: "4.5"
+                - text: /5 · 7,430 რივიუ
+            - generic [ref=e650]: €3–7
+          - generic [ref=e651]: 1972 · pizza rossa, porchetta სენდვიჩი · Campo de' Fiori-სთან · სწრაფი!
+        - generic [ref=e652]:
+          - generic [ref=e653]:
+            - generic [ref=e654]:
+              - link "Armando al Pantheon" [ref=e656] [cursor=pointer]:
+                - /url: https://maps.google.com/?q=Armando+al+Pantheon+Salita+dei+Crescenzi+31+Rome
+              - generic [ref=e657]:
+                - link "Salita dei Crescenzi 31" [ref=e658] [cursor=pointer]:
+                  - /url: https://maps.google.com/?q=Salita+dei+Crescenzi+31+Rome+Italy
+                - text: ·
+                - strong [ref=e659]: "4.4"
+                - text: /5 · 2,063 რივიუ · Michelin
+            - generic [ref=e660]: €15–25
+          - generic [ref=e661]:
+            - text: პანთეონის გვერდით · amatriciana, saltimbocca · 50 წელი ·
+            - strong [ref=e662]: 1 თვით ადრე ჯავშანი!
+        - generic [ref=e663]:
+          - generic [ref=e664]:
+            - generic [ref=e665]:
+              - generic [ref=e666]:
+                - link "Gelateria del Teatro" [ref=e667] [cursor=pointer]:
+                  - /url: https://maps.google.com/?q=Gelateria+del+Teatro+Via+dei+Coronari+65+Rome
+                - text: (გელატო)
+              - generic [ref=e668]:
+                - link "Via dei Coronari 65" [ref=e669] [cursor=pointer]:
+                  - /url: https://maps.google.com/?q=Via+dei+Coronari+65+Rome+Italy
+                - text: ·
+                - strong [ref=e670]: "4.6"
+                - text: /5 · 3,808 რივიუ · Navona-სთან
+            - generic [ref=e671]: €2.50–4
+          - generic [ref=e672]: ხელნაკეთი გელატო · ნატურალური · 23 აპრ. Navona-ს სეირნობისას!
+      - paragraph [ref=e673]: ებრაული კვარტალი (23 აპრილი სადილი)
+      - generic [ref=e674]:
+        - generic [ref=e675]: 🕍 ებრაული კვარტალი
+        - generic [ref=e676]:
+          - link "Hosteria da Giggetto" [ref=e678] [cursor=pointer]:
+            - /url: https://maps.google.com/?q=Hosteria+da+Giggetto+Via+del+Portico+d%27Ottavia+21+Rome
+          - link "Via del Portico d'Ottavia 21" [ref=e680] [cursor=pointer]:
+            - /url: https://maps.google.com/?q=Via+del+Portico+d%27Ottavia+21+Rome+Italy
+          - generic [ref=e681]: carciofi alla giudea · supplì · baccalà fritto · €12–18
+      - paragraph [ref=e682]: გელატო — ტოპ არჩევანი
+      - generic [ref=e683]:
+        - generic [ref=e684]: 🍦 საუკეთესო გელატერიები
+        - generic [ref=e685]:
+          - generic [ref=e686]:
+            - generic [ref=e687]:
+              - generic [ref=e688]:
+                - text: ⭐
+                - link "Giolitti" [ref=e689] [cursor=pointer]:
+                  - /url: https://maps.google.com/?q=Giolitti+Via+degli+Uffici+del+Vicario+40+Rome
+              - generic [ref=e690]:
+                - text: Via degli Uffici del Vicario 40 ·
+                - strong [ref=e691]: "4.4"
+                - text: /5 · 27,619 რივიუ · პანთეონის გვერდით!
+            - generic [ref=e692]: €3–5
+          - generic [ref=e693]: 1900-დან · რომის ისტორიული გელატერია · 22 აპრ. პანთეონის შემდეგ!
+        - generic [ref=e694]:
+          - generic [ref=e695]:
+            - generic [ref=e696]:
+              - generic [ref=e697]:
+                - link "Fatamorgana" [ref=e698] [cursor=pointer]:
+                  - /url: https://maps.google.com/?q=Fatamorgana+Monti+Piazza+degli+Zingari+5+Rome
+                - text: (Monti + სხვა ფილიალები)
+              - generic [ref=e699]:
+                - text: Piazza degli Zingari 5 ·
+                - strong [ref=e700]: "4.4"
+                - text: /5 · 1,808 რივიუ · სახლის გვერდით!
+            - generic [ref=e701]: €2.50–4
+          - generic [ref=e702]: იტალიის საუკეთესო გელატო · 100% ნატურალური · გლუტენ-ფრი · კრეატიული არომატები
+        - generic [ref=e703]:
+          - generic [ref=e704]:
+            - generic [ref=e705]:
+              - link "Gelateria del Teatro" [ref=e707] [cursor=pointer]:
+                - /url: https://maps.google.com/?q=Gelateria+del+Teatro+Via+dei+Coronari+65+Rome
+              - generic [ref=e708]:
+                - text: Via dei Coronari 65 ·
+                - strong [ref=e709]: "4.6"
+                - text: /5 · 3,808 რივიუ · Navona-სთან
+            - generic [ref=e710]: €2.50–4
+          - generic [ref=e711]: ხელნაკეთი · სეზონური ხილი, თხილი, პისტა, კაფე
+        - generic [ref=e712]:
+          - generic [ref=e713]:
+            - generic [ref=e714]:
+              - link "Come il Latte" [ref=e716] [cursor=pointer]:
+                - /url: https://maps.google.com/?q=Come+il+Latte+Via+Silvio+Spaventa+24+Rome
+              - generic [ref=e717]:
+                - text: Via Silvio Spaventa 24 ·
+                - strong [ref=e718]: "4.7"
+                - text: /5 · 4,605 რივიუ · Termini-სთან
+            - generic [ref=e719]: €3–5
+          - generic [ref=e720]: 70% კრემი · შოკოლადით შეფუთული კონუსი · ძალიან rich!
+      - paragraph [ref=e721]: ფასები
+      - generic [ref=e722]:
+        - generic [ref=e723]: 💶 ტიპიური ფასები
+        - generic [ref=e724]:
+          - generic [ref=e725]: ესპრესო ბარში
+          - generic [ref=e726]: €1–1.50
+        - generic [ref=e727]:
+          - generic [ref=e728]: გელატო
+          - generic [ref=e729]: €2.50–4
+        - generic [ref=e730]:
+          - generic [ref=e731]: Pizza al taglio (ნაჭერი)
+          - generic [ref=e732]: €3–6
+        - generic [ref=e733]:
+          - generic [ref=e734]: ტრატორია სადილი
+          - generic [ref=e735]: €10–18
+        - generic [ref=e736]:
+          - generic [ref=e737]: Coperto (ნორმალური)
+          - generic [ref=e738]: €1.50–3
+        - generic [ref=e739]:
+          - generic [ref=e740]: Coperto ❌ ხაფანგი
+          - generic [ref=e741]: €5+
+        - generic [ref=e742]:
+          - generic [ref=e743]: Metro (100 წთ.)
+          - generic [ref=e744]: €1.50
+        - generic [ref=e745]:
+          - generic [ref=e746]: Metro 72 საათის პასი
+          - generic [ref=e747]: €18
+        - generic [ref=e748]:
+          - generic [ref=e749]: 10 წლამდე ბავშვები ტრანსპორტი
+          - generic [ref=e750]: უფ. ☆

@@ -1,0 +1,2 @@
+[     183ms] [ERROR] Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist. @ http://localhost:8080/rome-2026.html:0
+[  140702ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8080/favicon.ico:0

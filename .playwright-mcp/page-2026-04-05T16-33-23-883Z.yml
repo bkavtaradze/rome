@@ -1,0 +1,103 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]: 🏛️ Roma 2026
+      - generic [ref=e5]: Via di Sant'Agata de' Goti 29 · Rione Monti
+      - generic [ref=e6]: 2 მოზ. + 2 ბავ. · 22–26 აპრილი
+    - generic "მოგზაურობის თარიღები" [ref=e7]:
+      - text: "22"
+      - text: ———
+      - text: "26"
+      - text: აპრ.
+  - navigation "გვერდების ნავიგაცია" [ref=e8]:
+    - navigation [ref=e9]:
+      - button "გადაუდებელი საქმეები" [ref=e10] [cursor=pointer]: გადაუდ.
+      - button "22 აპრ." [ref=e12] [cursor=pointer]
+      - button "23 აპრ." [ref=e13] [cursor=pointer]
+      - button "24 აპრ." [ref=e14] [cursor=pointer]
+      - button "25 აპრ." [ref=e15] [cursor=pointer]
+      - button "✈️ 26" [ref=e16] [cursor=pointer]
+      - button "🍝 კვება" [ref=e17] [cursor=pointer]
+      - button "ℹ️ ინფო" [ref=e18] [cursor=pointer]
+  - main [ref=e19]:
+    - region "გადაუდებელი საქმეები" [ref=e20]:
+      - paragraph [ref=e21]: ახლავე გასაკეთებელი
+      - generic [ref=e22]:
+        - generic [ref=e23]:
+          - img [ref=e24]
+          - text: გადაუდებელი
+        - button "ვატიკანი — მონიშვნა შესრულებულად" [ref=e26] [cursor=pointer]:
+          - img [ref=e28]
+          - generic [ref=e30]:
+            - generic [ref=e31]: ვატიკანის მუზეუმები
+            - generic [ref=e32]:
+              - text: 24 აპრ. 14:00 სლოტი ·
+              - link "tickets.museivaticani.va" [ref=e33]:
+                - /url: https://tickets.museivaticani.va
+          - generic "ახლავე გასაკეთებელი" [ref=e34]: ახლავე
+        - button "Borghese Gallery — მონიშვნა" [ref=e35] [cursor=pointer]:
+          - img [ref=e37]
+          - generic [ref=e39]:
+            - generic [ref=e40]:
+              - text: Borghese Gallery
+              - generic [ref=e41]: FREE!
+            - generic [ref=e42]:
+              - text: 25 აპრ. 14:00 ·
+              - link "galleriaborghese.beniculturali.it" [ref=e43]:
+                - /url: https://galleriaborghese.beniculturali.it
+          - generic [ref=e44]: 15 აპრ.
+        - button "Da Enzo — ჯავშნა" [ref=e45] [cursor=pointer]:
+          - img [ref=e47]
+          - generic [ref=e49]:
+            - generic [ref=e50]: Da Enzo al 29 — სარეზ.
+            - generic [ref=e51]: Trastevere · TheFork ან WhatsApp · 1–2 კვ. ადრე
+          - generic [ref=e52]: მალე
+        - button "ტაქსი ჯავშნა" [ref=e53] [cursor=pointer]:
+          - img [ref=e55]
+          - generic [ref=e57]:
+            - generic [ref=e58]: ტაქსი 26 აპრ. 05:30 → Fiumicino
+            - generic [ref=e59]: FREE NOW აპი · 25 აპრ. საღამოს დაჯავშნე
+          - generic [ref=e60]: 25 აპრ.
+      - paragraph [ref=e61]: ბილეთების სტატუსი
+      - generic [ref=e62]:
+        - generic [ref=e63]:
+          - img [ref=e64]
+          - text: ბილეთები
+        - generic [ref=e68]:
+          - generic [ref=e69]: ✅
+          - generic [ref=e70]:
+            - generic [ref=e71]: პანთეონი
+            - generic [ref=e72]: 22 აპრილი · 17:00
+          - generic [ref=e73]: შეძ.
+        - generic [ref=e74]:
+          - generic [ref=e75]: ✅
+          - generic [ref=e76]:
+            - generic [ref=e77]: პეტრეს ბაზილიკა
+            - generic [ref=e78]: 24 აპრილი · 10:00
+          - generic [ref=e79]: შეძ.
+        - generic [ref=e80]:
+          - generic [ref=e81]: ✅
+          - generic [ref=e82]:
+            - generic [ref=e83]: ტაქსი Fiumicino → სახლი
+            - generic [ref=e84]: 22 აპრ. · ჩასვლა
+          - generic [ref=e85]: შეძ.
+        - generic [ref=e86]:
+          - generic [ref=e87]: ⏳
+          - generic [ref=e88]:
+            - generic [ref=e89]: ვატიკანის მუზ. + Sistine
+            - generic [ref=e90]: 24 აპრ. 14:00 · €80 (2+2)
+          - generic [ref=e91]: საჭირო
+        - generic [ref=e92]:
+          - generic [ref=e93]: ⏳
+          - generic [ref=e94]:
+            - generic [ref=e95]: Borghese Gallery
+            - generic [ref=e96]: 25 აპრ. 14:00 · ᲣᲤᲐᲡᲝ
+          - generic [ref=e97]: საჭირო
+      - paragraph [ref=e98]: სახლი
+      - generic [ref=e99]:
+        - link "Via di Sant'Agata de' Goti 29" [ref=e101] [cursor=pointer]:
+          - /url: https://maps.google.com/?q=Via+di+Sant%27Agata+de%27+Goti+29+Rome+Italy
+        - generic [ref=e102]: Rione Monti · კოლიზეუმიდან 5 წთ. 🦶
+        - generic [ref=e103]:
+          - strong [ref=e104]: "Check-in:"
+          - text: 15:00–16:15 · პირველ დღეს ჩანთები შეიძლება ადრე დადოთ.

@@ -1,0 +1,158 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]: 🏛️ Roma 2026
+      - generic [ref=e5]: Via di Sant'Agata de' Goti 29 · Rione Monti
+      - generic [ref=e6]: 2 მოზ. + 2 ბავ. · 22–26 აპრილი
+    - generic "მოგზაურობის თარიღები" [ref=e7]:
+      - text: "22"
+      - text: ———
+      - text: "26"
+      - text: აპრ.
+  - navigation "გვერდების ნავიგაცია" [ref=e8]:
+    - navigation [ref=e9]:
+      - button "გადაუდებელი საქმეები" [ref=e10] [cursor=pointer]: გადაუდ.
+      - button "22 აპრ." [ref=e12] [cursor=pointer]
+      - button "23 აპრ." [ref=e13] [cursor=pointer]
+      - button "24 აპრ." [ref=e14] [cursor=pointer]
+      - button "25 აპრ." [active] [ref=e15] [cursor=pointer]
+      - button "✈️ 26" [ref=e16] [cursor=pointer]
+      - button "🍝 კვება" [ref=e17] [cursor=pointer]
+      - button "ℹ️ ინფო" [ref=e18] [cursor=pointer]
+  - main [ref=e19]:
+    - region "25 აპრილი — Liberation Day" [ref=e647]:
+      - generic [ref=e648]:
+        - generic [ref=e649]: დღე 4 · შაბათი 🇮🇹
+        - generic [ref=e650]: 25 აპრილი
+        - generic [ref=e651]: Liberation Day · ბიუჯეტის ყველაზე ძლიერი დღე
+        - generic [ref=e652]: ᲣᲤᲐᲡᲝ ♦ კოლიზეუმი · Forum · Borghese · Castel
+      - generic [ref=e653]:
+        - text: ⚠️
+        - strong [ref=e654]: Liberation Day + შაბათი
+        - text: = წლის ერთ-ერთი ყველაზე გადატვირთული დღე. ყველაფერი ადრე დილით! Piazza Venezia — 09:00 ცერემონია, გზები 10:00-მდე დახურული.
+      - generic [ref=e656]:
+        - generic [ref=e657]:
+          - checkbox [ref=e658] [cursor=pointer]
+          - generic [ref=e659]: 08:00
+          - generic [ref=e660]:
+            - generic [ref=e661]:
+              - text: ⚠️ კოლიზეუმის სალარო —
+              - link "Largo della Salara Vecchia" [ref=e662] [cursor=pointer]:
+                - /url: https://maps.google.com/?q=Largo+della+Salara+Vecchia+Rome+Italy
+            - generic [ref=e663]: Forum-ის მხარე = ნაკლები რიგი · პირველებში იყავი!
+        - generic [ref=e664]:
+          - checkbox [ref=e665] [cursor=pointer]
+          - generic [ref=e666]: 08:30–10:30
+          - generic [ref=e667]:
+            - generic [ref=e668]:
+              - generic [ref=e669]: ★
+              - generic [ref=e670]: ★
+              - link "კოლიზეუმი" [ref=e671] [cursor=pointer]:
+                - /url: https://maps.google.com/?q=Colosseum+Rome+Italy
+            - generic [ref=e672]: ზედა იარუსები = კოლოსალური ხედი · Underground — ცალკე ბილეთი სჭირდება
+          - generic [ref=e673]: ᲣᲤᲐᲡᲝ
+        - generic [ref=e674]:
+          - checkbox [ref=e675] [cursor=pointer]
+          - generic [ref=e676]: 10:30–12:00
+          - generic [ref=e677]:
+            - generic [ref=e678]:
+              - generic [ref=e679]: ★
+              - link "Roman Forum" [ref=e680] [cursor=pointer]:
+                - /url: https://maps.google.com/?q=Roman+Forum+Rome+Italy
+            - generic [ref=e681]: იგივე FREE ბილეთი!
+          - generic [ref=e682]: ᲣᲤᲐᲡᲝ
+        - generic [ref=e683]:
+          - checkbox [ref=e684] [cursor=pointer]
+          - generic [ref=e685]: 12:00–12:30
+          - generic [ref=e686]:
+            - generic [ref=e687]:
+              - link "Bocca della Verità" [ref=e688] [cursor=pointer]:
+                - /url: https://maps.google.com/?q=Bocca+della+Verit%C3%A0+Rome+Italy
+              - text: +
+              - link "Circus Maximus" [ref=e689] [cursor=pointer]:
+                - /url: https://maps.google.com/?q=Circus+Maximus+Rome+Italy
+            - generic [ref=e690]: 15 წუთი ქვეითად · ბავშვებს "ხელის მოჭრის" ლეგენდა ძალიან მოეწონებათ!
+          - generic [ref=e691]: უფასო
+        - generic [ref=e692]:
+          - checkbox [ref=e693] [cursor=pointer]
+          - generic [ref=e694]: 12:30–13:15
+          - generic [ref=e695]:
+            - generic [ref=e696]:
+              - text: 🍝
+              - link "Testaccio" [ref=e697] [cursor=pointer]:
+                - /url: https://maps.google.com/?q=Testaccio+Rome+Italy
+              - text: "-ში სადილი"
+            - generic [ref=e698]:
+              - text: ⭐
+              - link "Mordi & Vai" [ref=e699] [cursor=pointer]:
+                - /url: https://maps.google.com/?q=Mordi+e+Vai+Mercato+Testaccio+Rome
+              - text: (4.8 · ბაზარში · €4–7) ან
+              - link "Flavio" [ref=e700] [cursor=pointer]:
+                - /url: https://maps.google.com/?q=Flavio+al+Velavevodetto+Via+di+Monte+Testaccio+97+Rome
+              - text: (4.2) ან
+              - link "Pizzeria da Remo" [ref=e701] [cursor=pointer]:
+                - /url: https://maps.google.com/?q=Pizzeria+da+Remo+Piazza+Santa+Maria+Liberatrice+44+Rome
+              - text: (4.4 · €6–10)
+          - generic [ref=e702]: €4–20
+        - generic [ref=e703]:
+          - checkbox [ref=e704] [cursor=pointer]
+          - generic [ref=e705]: 13:15
+          - generic [ref=e706]:
+            - generic [ref=e707]: 🚕 ტაქსი Testaccio → Borghese
+            - generic [ref=e708]: ~20 წთ.
+          - generic [ref=e709]: ~€18
+        - generic [ref=e710]:
+          - checkbox [ref=e711] [cursor=pointer]
+          - generic [ref=e712]: 14:00–16:00
+          - generic [ref=e713]:
+            - generic [ref=e714]:
+              - generic [ref=e715]: ★
+              - generic [ref=e716]: ★
+              - link "Borghese Gallery" [ref=e717] [cursor=pointer]:
+                - /url: https://maps.google.com/?q=Borghese+Gallery+Rome+Italy
+            - generic [ref=e718]: "Bernini: Apollo & Daphne, Proserpina — შეუდარებელი! 15 აპრილს დაჯავშნე!"
+          - generic [ref=e719]: ᲣᲤᲐᲡᲝ
+        - generic [ref=e720]:
+          - checkbox [ref=e721] [cursor=pointer]
+          - generic [ref=e722]: 16:00–16:30
+          - generic [ref=e724]:
+            - text: 🌿
+            - link "ვილა ბორგეზეს პარკი" [ref=e725] [cursor=pointer]:
+              - /url: https://maps.google.com/?q=Villa+Borghese+Rome+Italy
+            - text: — ბავშვები გაშვება
+          - generic [ref=e726]: უფასო
+        - generic [ref=e727]:
+          - checkbox [ref=e728] [cursor=pointer]
+          - generic [ref=e729]: 16:30–18:00
+          - generic [ref=e730]:
+            - generic [ref=e731]:
+              - generic [ref=e732]: ★
+              - link "Castel Sant'Angelo" [ref=e733] [cursor=pointer]:
+                - /url: https://maps.google.com/?q=Castel+Sant%27Angelo+Rome+Italy
+              - generic [ref=e734]: ᲑᲝᲜᲣᲡ
+            - generic [ref=e735]: ტაქსი Borghese → Castel (~€18) · შიდა ნაწილი, ჯავშანი, პანორამული ტერასა
+          - generic [ref=e736]: ᲣᲤᲐᲡᲝ
+        - generic [ref=e737]:
+          - checkbox [ref=e738] [cursor=pointer]
+          - generic [ref=e739]: 18:00–19:30
+          - generic [ref=e741]:
+            - text: 🧳
+            - link "სახლი" [ref=e742] [cursor=pointer]:
+              - /url: https://maps.google.com/?q=Via+di+Sant%27Agata+de%27+Goti+29+Rome+Italy
+            - text: · პაკინგი
+        - generic [ref=e743]:
+          - checkbox [ref=e744] [cursor=pointer]
+          - generic [ref=e745]: 20:00
+          - generic [ref=e746]:
+            - generic [ref=e747]: 🍝 საბოლოო ვახშამი · ბოლო Roman gelato!
+            - generic [ref=e748]:
+              - text: ⭐
+              - link "Tonnarello" [ref=e749] [cursor=pointer]:
+                - /url: https://maps.google.com/?q=Tonnarello+Via+della+Paglia+1+Trastevere+Rome
+              - text: (4.7 · 103K · Trastevere) ან
+              - link "La Nuova Piazzetta" [ref=e750] [cursor=pointer]:
+                - /url: https://maps.google.com/?q=La+Nuova+Piazzetta+Vicolo+del+Buon+Consiglio+23+Rome
+              - text: "(4.8 · 48K · Monti) · გელატო:"
+              - link "Fatamorgana" [ref=e751] [cursor=pointer]:
+                - /url: https://maps.google.com/?q=Fatamorgana+Monti+Piazza+degli+Zingari+5+Rome
+      - generic [ref=e752]: 💡 Castel-ზე თუ ძალა არ გყოფნით — ნორმალურია! Borghese + Colosseum + Forum ბავშვებისთვის ბევრია ერთ დღეში.

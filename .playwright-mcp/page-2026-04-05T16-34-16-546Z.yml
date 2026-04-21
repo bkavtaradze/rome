@@ -1,0 +1,229 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]: 🏛️ Roma 2026
+      - generic [ref=e5]: Via di Sant'Agata de' Goti 29 · Rione Monti
+      - generic [ref=e6]: 2 მოზ. + 2 ბავ. · 22–26 აპრილი
+    - generic "მოგზაურობის თარიღები" [ref=e7]:
+      - text: "22"
+      - text: ———
+      - text: "26"
+      - text: აპრ.
+  - navigation "გვერდების ნავიგაცია" [ref=e8]:
+    - navigation [ref=e9]:
+      - button "გადაუდებელი საქმეები" [ref=e10] [cursor=pointer]: გადაუდ.
+      - button "22 აპრ." [ref=e12] [cursor=pointer]
+      - button "23 აპრ." [ref=e13] [cursor=pointer]
+      - button "24 აპრ." [ref=e14] [cursor=pointer]
+      - button "25 აპრ." [ref=e15] [cursor=pointer]
+      - button "✈️ 26" [ref=e16] [cursor=pointer]
+      - button "🍝 კვება" [ref=e17] [cursor=pointer]
+      - button "ℹ️ ინფო" [active] [ref=e18] [cursor=pointer]
+  - main [ref=e19]:
+    - region "ინფო — ყველა დეტალი" [ref=e753]:
+      - paragraph [ref=e754]: სახლიდან მანძილები
+      - generic [ref=e755]:
+        - generic [ref=e756]:
+          - img [ref=e757]
+          - text: Via di Sant'Agata de' Goti 29
+        - generic [ref=e760]:
+          - link "კოლიზეუმი" [ref=e762] [cursor=pointer]:
+            - /url: https://maps.google.com/?q=Colosseum+Rome+Italy
+          - generic [ref=e763]: 5 წთ 🦶
+        - generic [ref=e764]:
+          - link "Roman Forum" [ref=e766] [cursor=pointer]:
+            - /url: https://maps.google.com/?q=Roman+Forum+Rome+Italy
+          - generic [ref=e767]: 10 წთ 🦶
+        - generic [ref=e768]:
+          - link "San Clemente" [ref=e770] [cursor=pointer]:
+            - /url: https://maps.google.com/?q=Basilica+di+San+Clemente+Rome+Italy
+          - generic [ref=e771]: 5 წთ 🦶
+        - generic [ref=e772]:
+          - link "ტრევის შადრევანი" [ref=e774] [cursor=pointer]:
+            - /url: https://maps.google.com/?q=Trevi+Fountain+Rome+Italy
+          - generic [ref=e775]: 13 წთ 🦶
+        - generic [ref=e776]:
+          - link "პანთეონი" [ref=e778] [cursor=pointer]:
+            - /url: https://maps.google.com/?q=Pantheon+Rome+Italy
+          - generic [ref=e779]: 25 წთ 🦶
+        - generic [ref=e780]:
+          - link "Piazza Navona" [ref=e782] [cursor=pointer]:
+            - /url: https://maps.google.com/?q=Piazza+Navona+Rome+Italy
+          - generic [ref=e783]: 30 წთ 🦶
+        - generic [ref=e784]:
+          - link "Trastevere" [ref=e786] [cursor=pointer]:
+            - /url: https://maps.google.com/?q=Trastevere+Rome+Italy
+          - generic [ref=e787]: 20 წთ 🚌 (75)
+        - generic [ref=e788]:
+          - link "ვატიკანი" [ref=e790] [cursor=pointer]:
+            - /url: https://maps.google.com/?q=Vatican+Rome+Italy
+          - generic [ref=e791]: 15 წთ 🚇 Metro A
+        - generic [ref=e792]:
+          - link "Borghese Gallery" [ref=e794] [cursor=pointer]:
+            - /url: https://maps.google.com/?q=Borghese+Gallery+Rome+Italy
+          - generic [ref=e795]: 30–35 წთ 🚕
+      - paragraph [ref=e796]: ბიუჯეტი — 4 ადამიანი
+      - note "დაზოგვა 120 ევრო" [ref=e797]:
+        - generic [ref=e798]: 🎉
+        - generic [ref=e799]:
+          - generic [ref=e800]: ~€120 დაზოგვა
+          - generic [ref=e801]: Liberation Day-ის სტრატეგია · სულ ~€158 (ჩვეულებრივ €278)
+      - generic [ref=e802]:
+        - generic [ref=e803]: 💰 ბილეთები
+        - generic [ref=e804]:
+          - generic [ref=e805]: კოლ. + Forum + Palatine
+          - generic [ref=e806]:
+            - generic [ref=e807]: €36
+            - generic [ref=e808]: €0 ✅
+        - generic [ref=e809]:
+          - generic [ref=e810]: Castel Sant'Angelo
+          - generic [ref=e811]:
+            - generic [ref=e812]: €32
+            - generic [ref=e813]: €0 ✅
+        - generic [ref=e814]:
+          - generic [ref=e815]: Borghese Gallery
+          - generic [ref=e816]:
+            - generic [ref=e817]: €40
+            - generic [ref=e818]: €8 ✅
+        - generic [ref=e819]:
+          - generic [ref=e820]: ვატიკანის მუზ. + Sistine
+          - generic [ref=e821]: €80
+        - generic [ref=e822]:
+          - generic [ref=e823]: პეტრეს გუმბათი
+          - generic [ref=e824]: €32
+        - generic [ref=e825]:
+          - generic [ref=e826]: San Clemente
+          - generic [ref=e827]: €30
+        - generic [ref=e828]:
+          - generic [ref=e829]: ტრევი
+          - generic [ref=e830]: €8
+        - generic [ref=e832]:
+          - generic [ref=e833]: სულ
+          - generic [ref=e834]: ~€158
+      - paragraph [ref=e835]: ხალხმრავლობა — საუკეთესო საათები
+      - generic [ref=e836]:
+        - generic [ref=e837]: ⏰ ავარიდე პიკს · საუკეთესო დრო
+        - table "ხალხმრ. ცხრილი" [ref=e838]:
+          - generic [ref=e839]:
+            - generic [ref=e840]: ადგილი
+            - generic [ref=e841]: პიკი ❌
+            - generic [ref=e842]: საუკეთესო ✅
+          - generic [ref=e843]: კოლიზეუმი
+          - generic [ref=e844]: 11–15
+          - generic [ref=e845]: 08:30–10
+          - generic [ref=e846]: ვატიკანი
+          - generic [ref=e847]: 11–13
+          - generic [ref=e848]: 09 / 14+
+          - generic [ref=e849]: ტრევი
+          - generic [ref=e850]: 10–16
+          - generic [ref=e851]: 07 / 18+
+          - generic [ref=e852]: Navona
+          - generic [ref=e853]: 12–18
+          - generic [ref=e854]: 09 / 19+
+          - generic [ref=e855]: Forum
+          - generic [ref=e856]: 11–16
+          - generic [ref=e857]: 09–10:30
+      - paragraph [ref=e858]: ამინდი — გვიანი აპრილი
+      - generic [ref=e859]:
+        - list [ref=e860]:
+          - listitem [ref=e861]:
+            - generic [ref=e862]: ☀️
+            - generic [ref=e863]: 18–22°C
+            - generic [ref=e864]: დღე
+          - listitem [ref=e865]:
+            - generic [ref=e866]: 🌙
+            - generic [ref=e867]: 12–14°C
+            - generic [ref=e868]: საღამო
+          - listitem [ref=e869]:
+            - generic [ref=e870]: ☂️
+            - generic [ref=e871]: შესაძლ.
+            - generic [ref=e872]: მსუბუქი წვიმა
+          - listitem [ref=e873]:
+            - generic [ref=e874]: 👟
+            - generic [ref=e875]: კომფორტი
+            - generic [ref=e876]: ბოლოქვაა — კომფ. ფეხსაცმ.!
+        - generic [ref=e877]:
+          - strong [ref=e878]: "ვატიკანის ჩაცმულობა:"
+          - text: მხრები + მუხლები დაფარული ყველასთვის (ბავშვებიც). T-shirt + მსუბუქი პანტალონი = კარგი.
+      - paragraph [ref=e879]: საჭირო აპლიკაციები
+      - generic [ref=e880]:
+        - generic [ref=e881]: 📱 აპები
+        - generic [ref=e882]:
+          - generic [ref=e883]: 🗺️
+          - generic [ref=e884]:
+            - generic [ref=e885]: Google Maps
+            - generic [ref=e886]:
+              - text: ნავიგაცია ·
+              - strong [ref=e887]: OFFLINE ჩამოტვირთე!
+        - generic [ref=e888]:
+          - generic [ref=e889]: 🚌
+          - generic [ref=e890]:
+            - generic [ref=e891]: Moovit
+            - generic [ref=e892]: ავტობუსი / მეტრო · რეალურ დროში
+        - generic [ref=e893]:
+          - generic [ref=e894]: 🎫
+          - generic [ref=e895]:
+            - generic [ref=e896]: MooneyGo
+            - generic [ref=e897]: ATAC ბილეთი ტელეფონიდან
+        - generic [ref=e898]:
+          - generic [ref=e899]: 🚕
+          - generic [ref=e900]:
+            - generic [ref=e901]: FREE NOW
+            - generic [ref=e902]: ლიცენზირებული ტაქსი · Fiumicino-ს ჯავშანი
+        - generic [ref=e903]:
+          - generic [ref=e904]: 🎧
+          - generic [ref=e905]:
+            - generic [ref=e906]: Rick Steves Audio
+            - generic [ref=e907]: "უფასო აუდიო-ტური: კოლიზეუმი, ვატიკანი, Forum"
+        - generic [ref=e908]:
+          - generic [ref=e909]: 🍴
+          - generic [ref=e910]:
+            - generic [ref=e911]: TheFork
+            - generic [ref=e912]: რესტავრანების ჯავშნა
+        - generic [ref=e913]:
+          - generic [ref=e914]: 🌐
+          - generic [ref=e915]:
+            - generic [ref=e916]: Google Translate
+            - generic [ref=e917]: კამერით მენიუს თარგმანი
+        - generic [ref=e918]:
+          - generic [ref=e919]: 💱
+          - generic [ref=e920]:
+            - generic [ref=e921]: XE Currency
+            - generic [ref=e922]: ვალუტის კონვერტაცია
+      - paragraph [ref=e923]: ბილეთების ოფიციალური საიტები
+      - generic [ref=e924]:
+        - generic [ref=e925]: 🎫 საიტები
+        - generic [ref=e926]:
+          - generic [ref=e927]: ვატიკანის მუზ.
+          - link "tickets.museivaticani.va" [ref=e928] [cursor=pointer]:
+            - /url: https://tickets.museivaticani.va
+        - generic [ref=e929]:
+          - generic [ref=e930]: კოლიზეუმი
+          - link "ticketing.colosseo.it" [ref=e931] [cursor=pointer]:
+            - /url: https://ticketing.colosseo.it
+        - generic [ref=e932]:
+          - generic [ref=e933]: Borghese
+          - link "galleriaborghese.beniculturali.it" [ref=e934] [cursor=pointer]:
+            - /url: https://galleriaborghese.beniculturali.it
+        - generic [ref=e935]:
+          - generic [ref=e936]: Castel
+          - link "coopculture.it" [ref=e937] [cursor=pointer]:
+            - /url: https://www.coopculture.it
+        - generic [ref=e938]:
+          - generic [ref=e939]: პანთეონი
+          - link "pantheonroma.com" [ref=e940] [cursor=pointer]:
+            - /url: https://www.pantheonroma.com
+      - paragraph [ref=e941]: პრაქტიკული რჩევები
+      - generic [ref=e942]:
+        - generic [ref=e943]:
+          - generic [ref=e944]: ⛲ Nasoni
+          - text: უფასო სასმელი წყალი ყველგან! ბოთლი წაიღე, არ იყიდო.
+        - generic [ref=e945]:
+          - generic [ref=e946]: 🧳 Pickpocket
+          - text: წინა ჯიბე ან money belt · ყურადღება Termini-სთან და Bus 64-ზე
+        - generic [ref=e947]:
+          - generic [ref=e948]: ❌ ხაფანგები
+          - text: ლამინირებული მენიუ ფოტოებით · კოლიზეუმის/ვატიკანის მახლობლად
+        - generic [ref=e949]:
+          - generic [ref=e950]: 🚇 Metro
+          - text: €1.50 · 100 წუთი მოქმედება · 10 წლამდე ბავშვებს უფასო
